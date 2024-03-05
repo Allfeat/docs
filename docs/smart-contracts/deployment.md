@@ -9,6 +9,8 @@ Deploying your smart contracts to the Allfeat blockchain is the final step in ma
 
 ## Deployment Tools
 
+
+
 ### Polkadot{.js} Apps
 
 The Polkadot{.js} Apps UI is a versatile tool that allows you to interact with the Allfeat blockchain directly from your web browser. It includes functionalities for deploying and interacting with smart contracts.
@@ -58,3 +60,7 @@ Congratulations! You have successfully deployed a smart contract to the Allfeat 
 
 For more detailed information on smart contract deployment and interaction, consult the Ink! and Polkadot{.js} documentation.
 
+### Ink!
+
+You may use Ink! in place of the tools presented here. please follow their documentation
+- [Ink Documentation](https://use.ink/)
