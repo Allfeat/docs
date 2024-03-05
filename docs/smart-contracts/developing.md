@@ -15,40 +15,39 @@ If you prefer to develop smart contracts on Ethereum (EVM compatible), consult t
 
 To launch your smart contract on the Allfeat blockchain using Hardhat, follow these steps:
 
-1. Initialize `scripts/deploy.js`:
+- Initialize `scripts/deploy.js`:
 
-```
+```java
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 const { PRIVATE\_KEY\_1, PRIVATE\_KEY\_2, PRIVATE\_KEY\_3 } = process.env;
 
 module.exports = {
 solidity: "0.8.19",
-networks: {
-local: {
-url: "http://127.0.0.1:9944", // URL to your local blockchain
-accounts: \[PRIVATE\_KEY\_1, PRIVATE\_KEY\_2, PRIVATE\_KEY\_3\].filter((pk) => pk !== undefined) // Filter out undefined keys
-
-},
-testnet: {
-url: "https://harmonie-endpoint-02.allfeat.io", // URL to harmony testnet
-accounts: \[PRIVATE\_KEY\_1, PRIVATE\_KEY\_2, PRIVATE\_KEY\_3\].filter((pk) => pk !== undefined) // Filter out undefined keys
-}
-}
+    networks: {
+        local: {
+            url: "http://127.0.0.1:9944", // URL to your local blockchain
+            accounts: \[PRIVATE\_KEY\_1, PRIVATE\_KEY\_2, PRIVATE\_KEY\_3\].filter((pk) => pk !== undefined) // Filter out undefined keys
+        },
+        testnet: {
+            url: "https://harmonie-endpoint-02.allfeat.io", // URL to harmony testnet
+            accounts: \[PRIVATE\_KEY\_1, PRIVATE\_KEY\_2, PRIVATE\_KEY\_3\].filter((pk) => pk !== undefined) // Filter out undefined keys
+        }
+    }
 };
 ```
 
-2. Launch it on your local blockchain:
+- Launch it on your local blockchain:
 
-```bash
-npx hardhat run scripts/deploy.js --network local  # Run on the local node
-```
+    ```
+    npx hardhat run scripts/deploy.js --network local  # Run on the local node
+    ```
 
-3. Launch it on the testnet:
+- Launch it on the testnet:
 
-```bash
-npx hardhat run scripts/deploy.js --network testnet  # Run on the testnet
-```
+    ```
+    npx hardhat run scripts/deploy.js --network testnet  # Run on the testnet
+    ```
 
 Now, you're ready to deploy your smart contracts on the Allfeat blockchain using Hardhat.
 ```
