@@ -1,74 +1,54 @@
-# Developing Smart Contracts on Allfeat
+# Smart Contract Development Guide
 
-Developing smart contracts on Allfeat enables you to build powerful decentralized applications (DApps). This guide introduces you to the tools and frameworks required to start developing smart contracts on the Allfeat platform.
+## Allfeat Blockchain
 
-## Prerequisites
+Develop your smart contracts (DAPPS) on the Allfeat blockchain. The [Allfeat Contracts repository](https://github.com/Allfeat/allfeat-contracts) serves as an excellent starting point for contract development and deployment. It includes a comprehensive set of examples, such as AFT22, AFT34, and AFT37. Refer to the following documentations for a quick start:
 
-Before you begin, ensure you have a solid understanding of Rust programming language and smart contract basics. Familiarity with blockchain technology is also recommended.
+- [Allfeat Documentation](https://use.ink/)
+- [Substrate Documentation](https://docs.substrate.io/)
 
-## Smart Contract Development Tools
+## Ethereum Compatibility
 
-Allfeat supports smart contract development with multiple tools and frameworks. Here are some essential tools to get you started:
+If you prefer to develop smart contracts on Ethereum (EVM compatible), consult the [OpenZeppelin documentation](https://docs.openzeppelin.com/) – the reference for Ethereum smart contract development.
 
-- **Ink!**: A Rust-based eDSL for writing Wasm smart contracts for blockchains built on the Substrate framework. It provides a seamless development experience for building on Allfeat.
-  
-  ```bash
-  cargo install cargo-contract --force
-  ```
+## Hardhat Setup for Allfeat
 
-- **Solang**: A Solidity compiler that targets Substrate and Solana, allowing you to write smart contracts in Solidity and deploy them on Allfeat.
-  
-  ```bash
-  https://github.com/hyperledger-labs/solang
-  ```
+To launch your smart contract on the Allfeat blockchain using Hardhat, follow these steps:
 
-## Setting Up Your Development Environment
+1. Initialize `scripts/deploy.js`:
 
-To set up your environment for Ink! development:
+```
+require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
+const { PRIVATE\_KEY\_1, PRIVATE\_KEY\_2, PRIVATE\_KEY\_3 } = process.env;
 
-1. **Install Rust and Cargo**: Follow the instructions in the [Prerequisites](../prerequisites.md) section.
-2. **Install the `cargo-contract` CLI tool**: This tool helps in creating, building, and testing smart contracts written in Ink!.
+module.exports = {
+solidity: "0.8.19",
+networks: {
+local: {
+url: "http://127.0.0.1:9944", // URL to your local blockchain
+accounts: \[PRIVATE\_KEY\_1, PRIVATE\_KEY\_2, PRIVATE\_KEY\_3\].filter((pk) => pk !== undefined) // Filter out undefined keys
 
-   ```bash
-   cargo install cargo-contract --force
-   ```
-
-3. **Start a Local Allfeat Node**: Follow the instructions in [Running a Local Node without Docker](../running-a-node/without-docker.md) or [with Docker](../running-a-node/docker.md) to start your local Allfeat node.
-
-## Developing Your First Smart Contract
-
-To create your first smart contract with Ink!:
-
-1. **Create a New Ink! Project**:
-
-```bash
-cargo contract new my_contract
+},
+testnet: {
+url: "https://harmonie-endpoint-02.allfeat.io", // URL to harmony testnet
+accounts: \[PRIVATE\_KEY\_1, PRIVATE\_KEY\_2, PRIVATE\_KEY\_3\].filter((pk) => pk !== undefined) // Filter out undefined keys
+}
+}
+};
 ```
 
-2. **Navigate to Your Project Directory**:
+2. Launch it on your local blockchain:
 
 ```bash
-cd my_contract
+npx hardhat run scripts/deploy.js --network local  # Run on the local node
 ```
 
-3. **Build Your Smart Contract**:
+3. Launch it on the testnet:
 
 ```bash
-cargo contract build
+npx hardhat run scripts/deploy.js --network testnet  # Run on the testnet
 ```
 
-4. **Test Your Smart Contract**:
-
-```bash
-cargo contract test
+Now, you're ready to deploy your smart contracts on the Allfeat blockchain using Hardhat.
 ```
-
-5. **Deploy Your Smart Contract**: Use the Polkadot{.js} Apps UI or any other method to deploy your smart contract to the Allfeat node.
-
-## Next Steps
-
-- **Explore Ink! Documentation**: Deep dive into the Ink! documentation to learn more about smart contract development.
-- **Join the Allfeat Developer Community**: Engage with other developers and share your experiences.
-
-Congratulations! You have taken your first steps into smart contract development on Allfeat. The world of blockchain development is vast and exciting—keep building and exploring!
-
