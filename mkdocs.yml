@@ -1,0 +1,34 @@
+site_name: Allfeat Documentation
+site_url: https://your-domain.com
+site_description: A comprehensive guide for using and contributing to Allfeat.
+site_author: Romain PANNO & Noé SELLAM
+
+theme:
+  name: material
+  language: en
+
+docs_dir: docs
+
+nav:
+  - Introduction: 'index.md'
+  - Prerequisites: 'prerequisites.md'
+  - Installation and Configuration:
+    - Docker: 'installation/docker.md'
+    - From Source: 'installation/from-source.md'
+  - Running a Local Node:
+    - With Docker: 'running-a-node/docker.md'
+    - Without Docker: 'running-a-node/without-docker.md'
+  - Smart Contracts (DAPPs):
+    - Developing: 'smart-contracts/developing.md'
+    - Deployment: 'smart-contracts/deployment.md'
+  - Administering a Validator Node:
+    - Initializing the Node: 'validator-node/initializing.md'
+    - Running as a Validator: 'validator-node/running-as-validator.md'
+  - FAQ: 'faq.md'
+  - Additional Resources: 'additional-resources.md'
+  - Contributing to Allfeat: 'contributing.md'
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
