@@ -28,12 +28,12 @@ Replace `<node_url>`, `<secret_uri>`, and `<contract_name>` with your node's Web
 
 1. **Build Your Smart Contract**: Ensure your smart contract is compiled and optimized for deployment.
 
-   ```bash
+```bash
 cargo contract build --release
 ```
 2. **Generate Contract Metadata**: Generate metadata for your contract, which is necessary for interaction after deployment.
 
-   ```bash
+```bash
 cargo contract generate-metadata
 ```
 ## Deploying Your Smart Contract

@@ -41,27 +41,27 @@ To create your first smart contract with Ink!:
 
 1. **Create a New Ink! Project**:
 
-   ```bash
-   cargo contract new my_contract
-   ```
+```bash
+cargo contract new my_contract
+```
 
 2. **Navigate to Your Project Directory**:
 
-   ```bash
-   cd my_contract
-   ```
+```bash
+cd my_contract
+```
 
 3. **Build Your Smart Contract**:
 
-   ```bash
-   cargo contract build
-   ```
+```bash
+cargo contract build
+```
 
 4. **Test Your Smart Contract**:
 
-   ```bash
-   cargo contract test
-   ```
+```bash
+cargo contract test
+```
 
 5. **Deploy Your Smart Contract**: Use the Polkadot{.js} Apps UI or any other method to deploy your smart contract to the Allfeat node.
 
