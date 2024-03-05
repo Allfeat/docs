@@ -14,7 +14,7 @@ Ensure that your node has been:
 To start your node in validator mode, run the following command:
 
 ```bash
-./target/release/allfeat --base-path /path/to/node/data --validator --name MyValidatorNode
+./target/release/allfeat --base-path /path/to/node/data --name MyValidatorNode --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --validator
 ```
 Make sure to replace `/path/to/node/data` with your actual data directory and `MyValidatorNode` with the name you want to give your node.
 
@@ -23,12 +23,12 @@ Make sure to replace `/path/to/node/data` with your actual data directory and `M
 To participate in the consensus and be eligible for block production and rewards, your node must be selected into the validator set. This involves:
 
 1. **Staking Tokens**: Lock a certain amount of tokens as stake. This acts as a security deposit, ensuring validators act in the network's best interest.
-   
-   - Use the Polkadot{.js} Apps UI to stake tokens and nominate your validator.
+
+      - Use the Polkadot{.js} Apps UI to stake tokens and nominate your validator.
 
 2. **Setting Session Keys**: Inform the network about your validator's session keys.
-   
-   - This is done through a transaction, which can also be submitted via the Polkadot{.js} Apps UI.
+
+      - This is done through a transaction, which can also be submitted via the Polkadot{.js} Apps UI.
 
 3. **Waiting for the Next Era**: Validator selection happens at the beginning of each era. Your node will start validating if it's chosen for the active validator set.
 
