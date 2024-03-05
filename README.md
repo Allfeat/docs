@@ -2,6 +2,19 @@
 
 ## Install
 
+### Prerequisites
+
+You need pip to use MkDocs
+```bash
+# for apt
+sudo apt install python3-pip
+```
+```bash
+# for pacman
+sudo pacman -S python-pip
+```
+If you need more informations or use another package manager see the [MkDocs documentation](https://www.mkdocs.org/getting-started/) or [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
 #### install mkdocs
 
 ```bash
