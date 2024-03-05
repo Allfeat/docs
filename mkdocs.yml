@@ -22,7 +22,7 @@ nav:
     - Developing: 'smart-contracts/developing.md'
     - Deployment: 'smart-contracts/deployment.md'
   - Administering a Validator Node:
-    - Initializing the Node: 'validator-node/initializing.md'
+    - Prerequisites: 'validator-node/prerequisites.md'
     - Running as a Validator: 'validator-node/running-as-validator.md'
   - FAQ: 'faq.md'
   - Additional Resources: 'additional-resources.md'

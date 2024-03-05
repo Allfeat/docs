@@ -1,13 +1,12 @@
 # Running Your Node as a Validator on Allfeat
 
-After initializing your node as detailed in the [Initializing a Validator Node on Allfeat](initializing.md) section, you're ready to start your journey as a validator. This guide will walk you through running your node as a validator and joining the Allfeat validator set.
+After initializing your node as detailed in the [Initializing a Validator Node on Allfeat (prerequisites)](prerequisites.md) section, you're ready to start your journey as a validator. This guide will walk you through running your node as a validator and joining the Allfeat validator set.
 
 ## Prerequisites
 
 Ensure that your node has been:
 
-- Initialized with the latest genesis file.
-- Configured with the necessary validator keys.
+- Configured with the necessary validator keys. ([here](prerequisites.md))
 
 ## Starting Your Validator Node
 
@@ -50,4 +49,3 @@ Running a validator node requires diligent maintenance:
 Congratulations! You are now running a validator node on Allfeat. By participating as a validator, you play a critical role in securing the network and processing transactions.
 
 Remember, being a validator comes with responsibilities. Maintaining your node's security and operation is crucial for the health of the network and the security of your staked tokens.
-

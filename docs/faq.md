@@ -24,7 +24,7 @@ A: Yes, you can run Allfeat directly on your operating system. Please see [Runni
 ## Validator Questions
 
 ### Q: How do I become a validator on Allfeat?
-A: Becoming a validator involves staking tokens, setting up your node, and being selected into the validator set. For more details, visit [Initializing a Validator Node on Allfeat](validator-node/initializing.md) and [Running Your Node as a Validator on Allfeat](validator-node/running-as-validator.md).
+A: Becoming a validator involves staking tokens, setting up your node, and being selected into the validator set. For more details, visit [Initializing a Validator Node on Allfeat](validator-node/prerequisites.md) and [Running Your Node as a Validator on Allfeat](validator-node/running-as-validator.md).
 
 ### Q: What are the risks of being a validator?
 A: Validators are responsible for securing the network and can be penalized for actions such as double-signing or significant downtime. Ensure your node is secure and operates consistently.

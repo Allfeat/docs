@@ -7,9 +7,13 @@ Develop your smart contracts (DAPPS) on the Allfeat blockchain. The [Allfeat Con
 - [Allfeat Documentation](https://use.ink/)
 - [Substrate Documentation](https://docs.substrate.io/)
 
+## Ink!
+
+You may use Ink! in place of the tools presented here. please follow their documentation - [Ink Documentation](https://use.ink/)
+
 ## Ethereum Compatibility
 
-If you prefer to develop smart contracts on Ethereum (EVM compatible), consult the [OpenZeppelin documentation](https://docs.openzeppelin.com/) – the reference for Ethereum smart contract development.
+If you prefer to develop smart contracts on Ethereum (EVM compatible), consult the [OpenZeppelin documentation](https://docs.openzeppelin.com/) – the reference for Ethereum smart contract development, here is a tutorial using Hardhat just below.
 
 ## Hardhat Setup for Allfeat
 
@@ -50,4 +54,3 @@ solidity: "0.8.19",
     ```
 
 Now, you're ready to deploy your smart contracts on the Allfeat blockchain using Hardhat.
-```
