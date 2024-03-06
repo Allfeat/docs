@@ -54,3 +54,5 @@ solidity: "0.8.19",
     ```
 
 Now, you're ready to deploy your smart contracts on the Allfeat blockchain using Hardhat.
+
+You may use [Hardhat Documentation](https://hardhat.org/tutorial/testing-contracts) to test those contracts
