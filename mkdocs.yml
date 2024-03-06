@@ -1,10 +1,14 @@
 site_name: Allfeat Documentation
-site_url: https://your-domain.com
+site_url: https://docs.allfeat.com
 site_description: A comprehensive guide for using and contributing to Allfeat.
-site_author: Romain PANNO & Noé SELLAM
+site_author: Allfeat labs.
 
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: black
+    accent: green
   language: en
 
 docs_dir: docs
