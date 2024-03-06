@@ -19,7 +19,7 @@ If you prefer to develop smart contracts on Ethereum (EVM compatible), consult t
 
 To launch your smart contract on the Allfeat blockchain using Hardhat, follow these steps:
 
-- Initialize `scripts/deploy.js`:
+- Initialize `hardhat.config.js`:
 
 ```java
 require("@nomicfoundation/hardhat-toolbox");
