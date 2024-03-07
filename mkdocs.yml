@@ -5,11 +5,36 @@ site_author: Allfeat labs.
 
 theme:
   name: material
+  font:
+    text: 'TasaOrbiter'
+    url: 'assets/fonts/tasaOrbiter.woff2'
+  logo: assets/logos/allfeat-light.svg
   palette:
-    scheme: slate
-    primary: black
-    accent: green
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: Allfeat
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: Allfeat-dark
+      primary: custom
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   language: en
+extra_css:
+  - stylesheets/extra.css
 
 docs_dir: docs
 
