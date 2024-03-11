@@ -33,8 +33,24 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   language: en
+
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/3NVd4jzGeQ)
+      name: Allfeat on Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/Allfeat/Allfeat
+      name: Allfeat Github
+    - icon: fontawesome/brands/linkedin
+      link: https://fr.linkedin.com/company/allfeatlab
+      name: Allfeat labs
+  generator: false
+
+copyright: Copyright &copy; 2023 - 2024 Allfeat
 
 docs_dir: docs
 
