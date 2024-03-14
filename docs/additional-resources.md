@@ -10,7 +10,6 @@ To support your journey with Allfeat, whether you're a developer, a validator, o
 ## Tools for Development
 
 - **Polkadot{.js} Extension**: A browser extension for managing accounts in the Polkadot and Substrate ecosystems. [Get the Extension](https://polkadot.js.org/extension/)
-- **Ink! Playground**: An online IDE for experimenting with Ink! smart contracts. [Try Ink! Playground](https://ink-playground.substrate.dev/)
 
 ## Community and Support
 

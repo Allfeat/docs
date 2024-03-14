@@ -16,7 +16,7 @@ A: Allfeat stands out due to its compatibility with the EVM, allowing developers
 A: Please refer to the [Prerequisites](prerequisites.md) and [Installing Allfeat from Source](installation/from-source.md) documents for detailed instructions on setting up your environment.
 
 ### Q: What programming languages can I use to develop smart contracts on Allfeat?
-A: You can use Ink!, a Rust-based eDSL, for writing Wasm smart contracts, or Solidity for EVM-compatible smart contracts.
+A: You can use Solidity for EVM-compatible smart contracts.
 
 ### Q: Can I run Allfeat without Docker?
 A: Yes, you can run Allfeat directly on your operating system. Please see [Running a Local Node without Docker](running-a-node/without-docker.md) for instructions.
@@ -33,9 +33,6 @@ A: Validators are responsible for securing the network and can be penalized for 
 
 ### Q: My node won't start. What should I do?
 A: Check your node's logs for errors. Common issues include incorrect configurations or missing dependencies. Refer to [Running a Local Node](running-a-node/docker.md) for setup details.
-
-### Q: How can I troubleshoot smart contract deployment issues?
-A: Ensure your contract is correctly compiled and that you're connected to the Allfeat node. For deployment issues, consult the [Deployment of Smart Contracts on Allfeat](smart-contracts/deployment.md) guide.
 
 ## More Information
 
