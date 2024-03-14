@@ -4,7 +4,7 @@
 
 Develop your smart contracts (DAPPS) on the Allfeat blockchain. The [Allfeat Contracts repository](https://github.com/Allfeat/allfeat-contracts) serves as an excellent starting point for contract development and deployment. It includes a comprehensive set of examples, such as AFT22, AFT34, and AFT37. Refer to the following documentations for a quick start:
 
-- [Allfeat Documentation](https://docs.allfeat.org/)
+- [Allfeat Documentation](https://docs.allfeat.com)
 - [Substrate Documentation](https://docs.substrate.io/)
 
 ## Ethereum Compatibility

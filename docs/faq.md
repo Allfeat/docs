@@ -34,9 +34,6 @@ A: Validators are responsible for securing the network and can be penalized for 
 ### Q: My node won't start. What should I do?
 A: Check your node's logs for errors. Common issues include incorrect configurations or missing dependencies. Refer to [Running a Local Node](running-a-node/docker.md) for setup details.
 
-### Q: How can I troubleshoot smart contract deployment issues?
-A: Ensure your contract is correctly compiled and that you're connected to the Allfeat node. For deployment issues, consult the [Deployment of Smart Contracts on Allfeat](smart-contracts/deployment.md) guide.
-
 ## More Information
 
 For more detailed information and guides, visit the [Allfeat Documentation](https://allfeatdocs.org). If your question is not covered in this FAQ, join the Allfeat community forums or Discord channel for support.

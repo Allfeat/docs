@@ -9,6 +9,7 @@ theme:
     text: 'TasaOrbiter'
     url: 'assets/fonts/tasaOrbiter.woff2'
   logo: assets/logos/allfeat-light.svg
+  favicon: https://www.allfeat.com/favicon.ico
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -65,7 +66,6 @@ nav:
     - Without Docker: 'running-a-node/without-docker.md'
   - Smart Contracts (DAPPs):
     - Developing: 'smart-contracts/developing.md'
-    - Deployment: 'smart-contracts/deployment.md'
   - Administering a Validator Node:
     - Prerequisites: 'validator-node/prerequisites.md'
     - Running as a Validator: 'validator-node/running-as-validator.md'
