@@ -1,14 +1,14 @@
 # Frequently Asked Questions (FAQ)
 
-This FAQ section aims to address common questions and concerns about using and interacting with the Allfeat platform. From setting up your development environment to running a validator node, find quick answers to your queries here.
+This FAQ section aims to address common questions and concerns about using and interacting with the Allfeat network. From setting up your development environment to running a validator node, find quick answers to your queries here.
 
 ## General Questions
 
 ### Q: What is Allfeat?
-A: Allfeat is a blockchain platform designed for the development and deployment of decentralized applications (DApps) and smart contracts. It offers robust features for developers, including support for the Ethereum Virtual Machine (EVM).
+A: Allfeat is a blockchain platform specifically designed for the music industry. It provides a decentralized infrastructure for hosting music-related decentralized applications (DApps), artist profiles, music information, and a Decentralized Autonomous Organization (DAO) for inclusive governance within the music ecosystem.
 
 ### Q: How does Allfeat differ from other blockchain platforms?
-A: Allfeat stands out due to its compatibility with the EVM, allowing developers to easily migrate existing Ethereum-based DApps to the platform. It also offers unique features geared towards scalability and interoperability.
+A: Allfeat distinguishes itself by focusing exclusively on the music industry, offering specialized features like on-chain artist profiles, music metadata storage, and a music-centric Decentralized Autonomous Organization (DAO) for community governance. Its compatibility with Ethereum Virtual Machine (EVM) and Solidity also ensures ease of development for those familiar with blockchain technology.
 
 ## Technical Questions
 
@@ -19,7 +19,7 @@ A: Please refer to the [Prerequisites](prerequisites.md) and [Installing Allfeat
 A: You can use Solidity for EVM-compatible smart contracts.
 
 ### Q: Can I run Allfeat without Docker?
-A: Yes, you can run Allfeat directly on your operating system. Please see [Running a Local Node without Docker](running-a-node/without-docker.md) for instructions.
+A: Yes, you can run Allfeat directly on your operating system without containerization. Please see [Running a Local Node without Docker](running-a-node/without-docker.md) for instructions.
 
 ## Validator Questions
 

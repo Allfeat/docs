@@ -1,15 +1,17 @@
 # Smart Contract Development Guide
 
-## Allfeat Blockchain
+This resource is designed to assist you in harnessing the power of the Allfeat blockchain to develop and deploy your decentralized applications (DApps). 
+Whether you are a seasoned developer or new to the blockchain space, our guide will provide you with the necessary tools and knowledge to craft innovative solutions within the music industry and beyond.
 
-Develop your smart contracts (DAPPS) on the Allfeat blockchain. The [Allfeat Contracts repository](https://github.com/Allfeat/allfeat-contracts) serves as an excellent starting point for contract development and deployment. It includes a comprehensive set of examples, such as AFT22, AFT34, and AFT37. Refer to the following documentations for a quick start:
+The Allfeat blockchain is built with compatibility in mind, supporting Ethereum Virtual Machine (EVM)-compatible smart contracts written in Solidity. 
+This ensures a smooth transition for developers already familiar with EVM chains and a straightforward learning curve for newcomers. To kickstart your journey, we've curated a selection of resources that cover the basics of Solidity and smart contract development on EVM-compatible chains:
 
-- [Allfeat Documentation](https://docs.allfeat.com)
-- [Substrate Documentation](https://docs.substrate.io/)
+- [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.25/introduction-to-smart-contracts.html): The official Solidity documentation is an essential resource for developers of all levels. It offers a thorough overview of the language, including syntax, contract structures, and advanced features.
+- [CryptoZombies](https://cryptozombies.io/): CryptoZombies is an interactive code school that teaches you to write smart contracts in Solidity through building your own crypto-collectibles game.
+- [Ethereum Development Documentation](https://ethereum.org/en/developers/docs/): This collection of documentation provides a wealth of information on Ethereum-based development, including smart contracts, DApps, and more.
+- [Remix IDE](https://remix.ethereum.org/): Remix is a powerful, open-source tool that helps you write Solidity contracts straight from the browser. It is designed for small contracts and quick prototyping.
 
-## Ethereum Compatibility
-
-If you prefer to develop smart contracts on Ethereum (EVM compatible), consult the [OpenZeppelin documentation](https://docs.openzeppelin.com/) – the reference for Ethereum smart contract development, here is a tutorial using Hardhat just below.
+Armed with these resources and the unique features of the Allfeat blockchain, you are well-equipped to start developing smart contracts that can revolutionize the music industry and create new opportunities for artists, fans, and stakeholders alike. Let's dive in and explore the limitless possibilities of blockchain technology together.
 
 ## Hardhat Setup for Allfeat
 
@@ -23,7 +25,7 @@ require("dotenv").config();
 const { PRIVATE\_KEY\_1, PRIVATE\_KEY\_2, PRIVATE\_KEY\_3 } = process.env;
 
 module.exports = {
-solidity: "0.8.19",
+solidity: "0.8.20",
     networks: {
         local: {
             url: "http://127.0.0.1:9944", // URL to your local blockchain

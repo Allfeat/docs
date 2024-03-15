@@ -1,16 +1,21 @@
 # Introduction to Allfeat
 
-Welcome to the Allfeat documentation! This guide is designed to provide you with all the information you need to use, develop, and contribute to Allfeat. Allfeat is a cutting-edge platform for decentralized applications (DApps) and smart contracts, offering robust features for developers and validators alike.
+Welcome to the Allfeat documentation! This guide is designed to provide you with all the information you need to use, develop, and contribute to Allfeat. 
 
 ## What is Allfeat?
 
-Allfeat is a decentralized and secure infrastructure for the music industry
+
+Allfeat is an innovative platform that hosts decentralized applications (DApps) through smart contracts, offering advanced features tailored for the music industry, aimed at both developers and validators. 
+Additionally, the platform includes a robust Decentralized Autonomous Organization (DAO) built for the music sector, ensuring that every network user has a say in decision-making processes.
 
 ## Features
 
+- **On-chain Artists**: Allfeat serves as a decentralized directory, maintaining artist profiles directly on the blockchain.
+- **On-chain Releases**: Allfeat functions as a distributed ledger, preserving details about songs, albums, EPs and more, within the blockchain network (Work In Progress).
+- **Decentralized Music Governance**: Allfeat incorporates a DAO that facilitates decision-making across the network by engaging all stakeholders from the music community and beyond.
+- **EVM Compatibility**: Allfeat is compatible with the Ethereum Virtual Machine (EVM), allowing for seamless migration of Ethereum-based DApps and services.
 - **Smart Contract Support**: Allfeat supports the deployment and execution of smart contracts, enabling developers to create decentralized applications with complex business logic.
-- **Validator Nodes**: The platform offers opportunities for users to participate as validator nodes, securing the network and earning rewards in return.
-- **EVM Compatibility**: Allfeat is compatible with the Ethereum Virtual Machine (EVM), allowing for seamless migration of Ethereum-based DApps and smart contracts.
+- **Validator Nodes**: The platform offers opportunities for users to participate as validator nodes, securing the network and earning rewards in return through a Proof-Of-Stake consensus.
 
 ## Getting Started
 
@@ -20,9 +25,9 @@ To get started with Allfeat, you'll need to follow a few basic steps:
 
 2. **Run a local node**: Learn how to run a local Allfeat node for development and testing purposes.
 
-3. **Develop your DApp or smart contract**: Use our resources and examples to start developing on Allfeat.
+3. **Develop your DApp/smart contract**: Use our resources and examples to start developing on Allfeat.
 
-4. **Deploy your project**: Deploy your DApp or smart contract to the Allfeat network.
+4. **Deploy your project**: Deploy your DApp/smart contract to the Allfeat network.
 
 This documentation will guide you through each of these steps, providing detailed instructions and resources along the way.
 
