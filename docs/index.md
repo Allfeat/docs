@@ -4,18 +4,24 @@ Welcome to the Allfeat documentation! This guide is designed to provide you with
 
 ## What is Allfeat?
 
-
 Allfeat is an innovative platform that hosts decentralized applications (DApps) through smart contracts, offering advanced features tailored for the music industry, aimed at both developers and validators. 
 Additionally, the platform includes a robust Decentralized Autonomous Organization (DAO) built for the music sector, ensuring that every network user has a say in decision-making processes.
 
 ## Features
 
+- **Substrate/Rust Core Blockchain**: At the heart of the Allfeat blockchain lies a powerful and efficient core, meticulously crafted in [Rust](https://www.rust-lang.org/) with the help of the [Substrate](https://substrate.dev) framework.
 - **On-chain Artists**: Allfeat serves as a decentralized directory, maintaining artist profiles directly on the blockchain.
 - **On-chain Releases**: Allfeat functions as a distributed ledger, preserving details about songs, albums, EPs and more, within the blockchain network (Work In Progress).
 - **Decentralized Music Governance**: Allfeat incorporates a DAO that facilitates decision-making across the network by engaging all stakeholders from the music community and beyond.
 - **EVM Compatibility**: Allfeat is compatible with the Ethereum Virtual Machine (EVM), allowing for seamless migration of Ethereum-based DApps and services.
 - **Smart Contract Support**: Allfeat supports the deployment and execution of smart contracts, enabling developers to create decentralized applications with complex business logic.
 - **Validator Nodes**: The platform offers opportunities for users to participate as validator nodes, securing the network and earning rewards in return through a Proof-Of-Stake consensus.
+
+## Rust & Substrate
+
+We have chosen Rust for its performance, reliability, and safety features, making it an ideal choice for blockchain infrastructure.
+To further enhance our blockchain's capabilities, we leverage the Substrate framework. Substrate is a versatile and modular framework for building blockchains, known for its flexibility and extensive feature set. 
+It allows us to customize and optimize the Allfeat blockchain specifically for the needs of the music industry, providing a solid and scalable foundation for our platform and its unique features.
 
 ## Getting Started
 
