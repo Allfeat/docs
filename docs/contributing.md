@@ -6,15 +6,15 @@ We deeply appreciate your interest in contributing to Allfeat! All forms of cont
 
 ### Reporting Issues
 
-If you encounter a bug or have a suggestion for improving Allfeat, please use the GitHub Issues section of our repository. Detailed reports with explanations of the issue, its context, and ideally a way to reproduce it, are invaluable and increase the chances of the community addressing them swiftly.
+If you encounter a bug or have a suggestion for improving Allfeat, please use the [GitHub Issues section](https://github.com/Allfeat/docs/issues) of our repository. Detailed reports with explanations of the issue, its context, and ideally a way to reproduce it, are invaluable and increase the chances of the community addressing them swiftly.
 
 ### Code Contributions
 
 For code contributions, such as bug fixes or new features, follow these steps:
 
-1. **Fork the Repository**: Create your own fork of the Allfeat GitHub repository.
+1. **Fork the Repository**: Create your own fork of the [Allfeat GitHub repository](https://github.com/Allfeat/docs/).
 2. **Clone Your Fork**: Work locally on your own machine.
-3. **Create a New Branch**: Base your changes on the `main` branch.
+3. **Create a New Branch**: Base your changes on the `master` branch.
 5. **Submit a Pull Request (PR)**: Push your changes to your fork and then submit a pull request to the Allfeat repository. Provide a clear description of the changes and any additional context.
 
 ### Improving Documentation

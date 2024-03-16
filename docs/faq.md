@@ -36,4 +36,4 @@ A: Check your node's logs for errors. Common issues include incorrect configurat
 
 ## More Information
 
-For more detailed information and guides, visit the [Allfeat Documentation](https://allfeatdocs.org). If your question is not covered in this FAQ, join the Allfeat community forums or Discord channel for support.
+If your question is not covered in this FAQ, join the Allfeat Discord channel for support.
