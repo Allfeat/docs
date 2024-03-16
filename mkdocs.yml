@@ -65,6 +65,7 @@ nav:
   - Administering a Validator Node:
     - Prerequisites: 'validator-node/prerequisites.md'
     - Running as a Validator: 'validator-node/running-as-validator.md'
+  - Compatible Wallets: 'wallets.md'
   - FAQ: 'faq.md'
   - Additional Resources: 'additional-resources.md'
   - Contributing to Allfeat: 'contributing.md'
