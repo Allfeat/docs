@@ -1,6 +1,7 @@
 # Welcome to Allfeat Documentation! 🚀
 
-This README will explain how to build and start the documentation on a server. It does not elaborate on how to open ports for accessibility
+This README will explain how to build and start the documentation on a server. It does not elaborate on how to open ports for hosting.
+
 The documentation is build using MkDocs, which turns .md files into HTML/CSS, and then builds and hosts it locally.
 
 The actual documentation is located under `/docs`. After building, a build folder will appear, containing HTML and CSS information. Make sure to add it to your `.gitignore` (or to delete it before pushing)
