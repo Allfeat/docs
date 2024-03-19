@@ -2,6 +2,22 @@
     --md-primary-fg-color: #FF4A5F;
     --md-primary-fg-color--light: #EDE8D5;
     --md-primary-fg-color--dark:  #12172a;
+    --md-text-font: "TASAOrbiter";
+}
+
+.md-typeset {
+    font-size: .85rem;
+}
+
+.md-nav--primary {
+    font-size: .81rem;
+}
+
+@font-face {
+    font-family: "TASAOrbiter";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../assets/fonts/TASAOrbiterVF.woff2");
 }
 
 [data-md-color-scheme="Allfeat"] {

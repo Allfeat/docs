@@ -5,10 +5,8 @@ site_author: Allfeat labs.
 
 theme:
   name: material
-  font:
-    text: 'TasaOrbiter'
-    url: 'assets/fonts/tasaOrbiter.woff2'
   logo: assets/logos/allfeat-light.svg
+  font: false
   favicon: https://www.allfeat.com/favicon.ico
   palette:
     # Palette toggle for light mode
