@@ -54,7 +54,11 @@ nav:
     - Harmonie Testnet: 'networks/harmonie.md'
   - Installation and Configuration:
     - Docker: 'installation/docker.md'
-    - From Source: 'installation/from-source.md'
+    - From Source:
+      - Overview: 'installation/from-source.md'
+      - Linux: 'installation/linux.md'
+      - macOS: 'installation/macos.md'
+      - Building: 'installation/build-allfeat.md'
   - Running a Local Node:
     - With Docker: 'running-a-node/docker.md'
     - Without Docker: 'running-a-node/without-docker.md'
