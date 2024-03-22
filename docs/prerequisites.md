@@ -21,11 +21,13 @@ Allfeat nodes can be run inside Docker containers for ease of setup and isolatio
 - **macOS**: [Install Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/install/)
 - **Windows**: [Install Docker Desktop for Windows](https://docs.docker.com/docker-for-windows/install/)
 
-### Rust and Cargo
+### Rust and required packages
 
-For developing smart contracts or running nodes from source, Rust and Cargo are required:
+For building Allfeat and running a node from source, Rust is required:
 
 - **Install Rust**: Follow the instructions on the [official Rust website](https://www.rust-lang.org/tools/install).
+
+To successfully build Allfeat, some external packages are required: 
 
 ### Git
 
