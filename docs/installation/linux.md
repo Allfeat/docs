@@ -33,32 +33,32 @@ To install the Rust toolchain on Linux:
 
    For example, on Ubuntu Desktop or Ubuntu Server, you might run a command similar to the following:
 
-   ```bash
-   sudo apt install --assume-yes git clang curl libssl-dev protobuf-compiler
+   ```
+   sudo apt install --assume-yes git clang curl libssl-dev protobuf-compiler pkg-config
    ```
 
    **Debian**
 
-   ```bash
-   sudo apt install --assume-yes git clang curl libssl-dev llvm libudev-dev make protobuf-compiler
+   ```
+   sudo apt install --assume-yes git clang curl libssl-dev llvm libudev-dev make protobuf-compiler pkg-config
    ```
 
    **Arch**
 
-   ```bash
+   ```
    pacman -Syu --needed --noconfirm curl git clang make protobuf
    ```
 
    **Fedora**
 
-   ```bash
+   ```
    sudo dnf update &&
    sudo dnf install clang curl git openssl-devel make protobuf-compiler
    ```
    
    **Opensuse**
 
-   ```bash
+   ```
    sudo zypper install clang curl git openssl-devel llvm-devel libudev-devel make protobuf
    ```
    
@@ -68,7 +68,7 @@ To install the Rust toolchain on Linux:
 
 4. Download the `rustup` installation program and use it to install Rust by running the following command:
 
-   ```bash
+   ```
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
    ```
 
@@ -76,27 +76,27 @@ To install the Rust toolchain on Linux:
 
 6. Update your current shell to include Cargo by running the following command:
 
-   ```bash
+   ```
    source $HOME/.cargo/env
    ```
 
 7. Verify your installation by running the following command:
 
-   ```bash
+   ```
    rustc --version
    ```
 
 8. Configure the Rust toolchain to default to the latest stable version by running the following commands:
 
-   ```bash
-   rustup default stable
+   ```
+   rustup default stable &&
    rustup update
    ```
 
 9. Add the `nightly` release and the `nightly` WebAssembly (wasm) targets to your development environment by running the following commands:
 
-   ```bash
-   rustup update nightly
+   ```
+   rustup update nightly &&
    rustup target add wasm32-unknown-unknown --toolchain nightly
    ```
    
