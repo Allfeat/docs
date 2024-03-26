@@ -20,9 +20,18 @@ To help you get started with the Harmonie testnet, the following table outlines 
 | **Native Token**   | HMY                                                                                                       |
 | **Token Decimals** | 18                                                                                                        |
 | **Endpoint URL**   | harmonie-endpoint-02.allfeat.io                                                                           |
-| **Block Explorer** | https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fharmonie-endpoint-02.allfeat.io#/explorer                   |
 | **Faucet URL**     | https://faucet.allfeat.com/                                                                               |
 | **Chain ID**       | 441                                                                                                       |
+
+### Explorers
+
+Below is a list of network explorers that provide a graphical interface to view activities within the network:
+
+- [EVM Explorer](https://evm.allfeat.com) - This explorer is particularly useful for DApp developers as it serves as the primary platform for project builders. 
+It allows you to interact with deployed contracts and gives you greater insight into your development experiments.
+- [Substrate Explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fharmonie-endpoint-02.allfeat.io#/explorer) - This explorer is designed to inspect the core of the blockchain, query the storage of Substrate pallets, and interact with them.
+
+Each explorer is tailored to specific needs within the Allfeat network, enhancing both development and operational understanding.
 
 ### Getting Started with the Testnet
 
