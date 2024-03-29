@@ -33,7 +33,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: http://discord.allfeat.com/
+      link: https://discord.allfeat.com/
       name: Allfeat on Discord
     - icon: fontawesome/brands/github
       link: https://github.com/Allfeat/
