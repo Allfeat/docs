@@ -49,9 +49,12 @@ docs_dir: docs
 
 nav:
   - Introduction: 'index.md'
-  - Prerequisites: 'prerequisites.md'
+  - Specific Features:
+    - Overview: 'features/overview.md'
+    - MIDDS: 'features/midds.md'
   - Networks:
     - Harmonie Testnet: 'networks/harmonie.md'
+  - Technical Prerequisites: 'prerequisites.md'
   - Installation and Configuration:
     - Docker: 'installation/docker.md'
     - From Source:
