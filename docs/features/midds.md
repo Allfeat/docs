@@ -16,7 +16,7 @@ Now, picture this library has been transformed. Instead of one big building, the
 
 In this new system, only essential information about each music record, like a summary or reference, is stored in each small library to save space and ensure quick access. The full records are kept off-site in a secure storage location. This approach ensures that the music data is lightweight, reducing storage and cost while still allowing anyone to verify the authenticity of the data through the references.
 
-This ensures the music data is safe, transparent, and accessible to everyone, mirroring the principles of blockchain technology used in the DMDI. Additionally, by keeping data lightweight, the system remains efficient and scalable, handling more data and users without performance issues.
+This ensures the music data is safe, transparent, and accessible to everyone, mirroring the principles of blockchain technology used in the MIDDS. Additionally, by keeping data lightweight, the system remains efficient and scalable, handling more data and users without performance issues.
 
 ## Why different data structures are required in a Decentralized Network
 

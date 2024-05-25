@@ -24,7 +24,7 @@ MIDDS manages the details of songs, albums, and EPs, creating a distributed ledg
 
 #### Copyright Management and Tokenization
 
-(Planned Q1 2025)
+*(Planned Q1 2025)*
 
 MIDDS provides structured data and logic to manage copyrights effectively, ensuring that the rights of artists and content creators are protected and verifiable on-chain. This includes mechanisms for tracking ownership, licensing, and usage rights in a transparent and immutable manner.
 
