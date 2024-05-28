@@ -51,7 +51,9 @@ nav:
   - Introduction: 'index.md'
   - Specific Features:
     - Overview: 'features/overview.md'
-    - MIDDS: 'features/midds.md'
+    - MIDDS:
+      - MIDDS Overview: 'features/midds.md'
+      - Artist Profiles: 'features/artists.md'
   - Networks:
     - Harmonie Testnet: 'networks/harmonie.md'
   - Technical Prerequisites: 'prerequisites.md'
