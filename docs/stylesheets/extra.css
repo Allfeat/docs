@@ -37,6 +37,18 @@
     color: #d9d9d9;
 }
 
-[data-md-color-scheme="Allfeat-dark"] strong, [data-md-color-scheme="Allfeat-dark"] .md-nav__title, [data-md-color-scheme="Allfeat-dark"] h1,[data-md-color-scheme="Allfeat-dark"] h2, [data-md-color-scheme="Allfeat-dark"] h3, [data-md-color-scheme="Allfeat-dark"] h4 {
+[data-md-color-scheme="Allfeat-dark"] strong,
+[data-md-color-scheme="Allfeat-dark"] .md-nav__title,
+[data-md-color-scheme="Allfeat-dark"] .md-search-result__meta,
+[data-md-color-scheme="Allfeat-dark"] .md-search-result__icon,
+[data-md-color-scheme="Allfeat-dark"] .md-icon svg,
+[data-md-color-scheme="Allfeat-dark"] .md-search__input,
+[data-md-color-scheme="Allfeat-dark"] h1,
+[data-md-color-scheme="Allfeat-dark"] h2,
+[data-md-color-scheme="Allfeat-dark"] h3,
+[data-md-color-scheme="Allfeat-dark"] h4,
+[data-md-color-scheme="Allfeat-dark"] .md-search-result .md-typeset,
+[data-md-color-scheme="Allfeat-dark"] .md-search-result .md-typeset h1,
+[data-md-color-scheme="Allfeat-dark"] .md-search-result .md-typeset h2 {
     color: #f1f1f1
 }
