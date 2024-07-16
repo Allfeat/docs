@@ -24,7 +24,7 @@ Once your contract is ready, you will have to build it first:
   ```bash
   forge build
   ```
-
+
 Then deploy the contract:
 
   ```bash
@@ -32,9 +32,9 @@ Then deploy the contract:
   ```
 
 Don't forget to replace the placeholders:
-
-  - `<YOUR_PRIVATE_KEY>`: is the private key of your wallet
-  - `<YOUR_CONTRACT>`: is the name of your contract
+
+- `<YOUR_PRIVATE_KEY>`: is the private key of your wallet
+- `<YOUR_CONTRACT>`: is the name of your contract
 
 If you want to verify your contract upon deployment, you can add an argument like so:
 
@@ -44,6 +44,6 @@ If you want to verify your contract upon deployment, you can add an argument lik
 
 You can then check your contract has been deployed on the [EVM explorer](https://evm.allfeat.com/).
 
-Now, you're ready to deploy your smart contracts on the `Allfeat` blockchain using `Foundry` !
+If you have any troubles deploying your contract, we suggest you check [Foundry's documentation](https://book.getfoundry.sh/forge/deploying) or reach out to the [Allfeat youtube tutorial](https://www.youtube.com/watch?v=oxr3fZqrnpg). You can also reach us by joining our [Discord server](https://discord.allfeat.com/).
 
-If you have any troubles deploying your contract, we suggest you check [Foundry's documentation](https://book.getfoundry.sh/forge/deploying) or reach out to the [Allfeat youtube tutorial](https://www.youtube.com/watch?v=oxr3fZqrnpg).
+Now, you're ready to deploy your smart contracts on the `Allfeat` blockchain using `Foundry` !
