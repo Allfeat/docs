@@ -4,8 +4,7 @@ Welcome to the Allfeat documentation! This guide is designed to provide you with
 
 ## What is Allfeat?
 
-Allfeat is an innovative platform that hosts decentralized applications (DApps) through smart contracts, offering advanced features tailored for the music industry, aimed at both developers and validators. 
-Additionally, the platform includes a robust Decentralized Autonomous Organization (DAO) built for the music sector, ensuring that every network user has a say in decision-making processes.
+Allfeat is a music industry blockchain (Layer 1) with advanced features for developers and validators. It offers a decentralized registry for metadata and a robust DAO for decision-making. The network supports dApps through smart contracts and provides an SDK for music use cases on this EVM+ Layer 1 infrastructure.
 
 ## Features
 
