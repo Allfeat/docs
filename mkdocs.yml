@@ -69,6 +69,7 @@ nav:
     - Without Docker: 'running-a-node/without-docker.md'
   - Smart Contracts (DAPPs):
     - Developing: 'smart-contracts/developing.md'
+    - MIDDS Integration: 'smart-contracts/midds-dapps.md'
   - Administering a Validator Node:
     - Prerequisites: 'validator-node/prerequisites.md'
     - Running as a Validator: 'validator-node/running-as-validator.md'
