@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Music Industry Decentralized Data Structures (MIDDS) are a core innovation of the Allfeat platform. MIDDS are designed to manage and optimize music-related data in a decentralized manner, aligning with the principles of Web3. This section details what MIDDS are, why they are essential in a decentralized network, and the differences between centralized (Web2) and decentralized (Web3) data storage specifically for the music industry.
+Music Industry Decentralized Data Structures (MIDDS) are a core innovation of the Allfeat platform. MIDDS are designed to manage and optimize music metadata in a decentralized manner, aligning with the principles of Web3. This section details what MIDDS are, why they are essential in a decentralized network, and the differences between centralized (Web2) and decentralized (Web3) data storage specifically for the music industry.
 
 ## What is MIDDS?
 
-MIDDS are specialized data structures tailored for the music industry, stored and managed on a decentralized network. They ensure data integrity, transparency, and accessibility while being optimized for performance and scalability. MIDDS encompass various elements, including artist profiles, music releases, and copyright management.
+MIDDS are specialized data structures tailored for the music industry, stored and managed on a decentralized network. They ensure data integrity, transparency, and accessibility while being optimized for performance and scalability. MIDDS are made to support music metadata and so encompass various elements, including performing artist metadata, songs metadata, tracks metadata, licensing management...
 
 ### Metaphor: The Decentralized Music Library
 
