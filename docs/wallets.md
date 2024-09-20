@@ -12,6 +12,10 @@ Allfeat blockchain addresses adhere to the EVM standard, starting with a `0x` pr
 
 ### Fully Compatible Wallets
 
+#### SubWallet
+- **Best UX/UI and Dual-Layer Access**: SubWallet offers the best user experience with a clean interface, providing seamless access to both EVM and Substrate layers without constraints, making it highly compatible with the Allfeat network.
+- **Website**: [SubWallet](https://www.subwallet.app/)
+
 #### Talisman
 - **Best for Substrate Features**: Talisman is tailored for Substrate's advanced features, providing optimal compatibility with the Allfeat blockchain.
 - **Website**: [Talisman](https://talisman.xyz/)
