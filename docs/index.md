@@ -1,6 +1,6 @@
 # Introduction to Allfeat
 
-Welcome to the Allfeat documentation! This comprehensive guide provides you with all the information you need to understand, develop, and contribute to Allfeat, the blockchain platform dedicated to transforming the music industry's metadata management.
+Welcome to the Allfeat documentation. This comprehensive guide provides you with all the information you need to understand, develop, and contribute to Allfeat, the blockchain platform dedicated to transforming the music industry's metadata management.
 
 ## What is Allfeat?
 
@@ -20,7 +20,7 @@ Additionally, Allfeat is planning to extend its capabilities through a **Layer 2
 
 - **Decentralized Governance (DAO)**: Allfeat includes a DAO that empowers community stakeholders to participate in decision-making, including the nomination and selection of certifiers and validators. This ensures that the network evolves in line with the needs of its users.
 
-- **EVM+ Compatibility**: Allfeat's integration with the Ethereum ecosystem will be handled through a Layer 2 rollup. This Layer 2 solution will allow DApps to interact with Allfeat’s certified metadata via smart contracts in Solidity, ensuring seamless interoperability between the Allfeat network and Ethereum. While the Layer 1 focuses on metadata certification and management, all EVM interactions will be routed through the Layer 2 bridge.
+- **EVM Compatibility**: Allfeat's integration with the Ethereum ecosystem will be handled through a Layer 2 rollup. This Layer 2 solution will allow DApps to interact with Allfeat’s certified metadata via smart contracts in Solidity, ensuring seamless interoperability between the Allfeat network and Ethereum. While the Layer 1 focuses on metadata certification and management, all EVM interactions will be routed through the Layer 2 bridge.
 
 - **Proof-of-Authority (PoA) for Validators**: The network uses a PoA consensus for node validation, with a trusted selection of validators. This ensures efficiency and security for a blockchain tailored to the music industry. Transaction fees from PoA are distributed to validators and the protocol's treasury, while inflation rewards focus on PoM participants.
 
