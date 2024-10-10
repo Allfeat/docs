@@ -1,45 +1,50 @@
 # Introduction to Allfeat
 
-Welcome to the Allfeat documentation! This guide is designed to provide you with all the information you need to use, develop, and contribute to Allfeat. 
+Welcome to the Allfeat documentation! This comprehensive guide provides you with all the information you need to understand, develop, and contribute to Allfeat, the blockchain platform dedicated to transforming the music industry's metadata management.
 
 ## What is Allfeat?
 
-Allfeat is a music industry blockchain (Layer 1) with advanced features for developers and validators. It offers a decentralized registry for metadata and a robust DAO for decision-making. The network supports dApps through smart contracts and provides an SDK for music use cases on this EVM+ Layer 1 infrastructure.
+Allfeat is a Layer 1 blockchain tailored for the music industry, providing a decentralized and transparent registry for metadata. At its core lies the **Proof-of-Metadata (PoM)** consensus, a unique mechanism that allows all stakeholders, especially those from the music industry, to participate in the certification and monetization of metadata.
 
-## Features
+Allfeat's infrastructure is built on **Substrate**, offering a scalable and flexible foundation for the needs of the music industry. It supports both the creation and certification of metadata entities, known as **Music Industry Decentralized Data Structures (MIDDS)**, ensuring durability and fluidity of data.
 
-- **Substrate/Rust Core Blockchain**: At the heart of the Allfeat blockchain lies a powerful and efficient core, meticulously crafted in [Rust](https://www.rust-lang.org/) with the help of the [Substrate](https://substrate.dev) framework.
-- **On-chain Artists**: Allfeat serves as a decentralized directory, maintaining artist profiles directly on the blockchain.
-- **On-chain Releases**: Allfeat functions as a distributed ledger, preserving details about songs, albums, EPs and more, within the blockchain network (Work In Progress).
-- **Decentralized Music Governance**: Allfeat incorporates a DAO that facilitates decision-making across the network by engaging all stakeholders from the music community and beyond.
-- **EVM+ Compatibility**: Allfeat is compatible with the Ethereum Virtual Machine (EVM), allowing for seamless migration of Ethereum-based DApps and services, this is what we call an EVM+.
-- **Smart Contract Support**: Allfeat supports the deployment and execution of smart contracts, enabling developers to create decentralized applications with complex business logic.
-- **Validator Nodes**: The platform offers opportunities for users to participate as validator nodes, securing the network and earning rewards in return through a Proof-Of-Stake consensus.
+Additionally, Allfeat is planning to extend its capabilities through a **Layer 2 rollup on Ethereum**, allowing decentralized applications (DApps) to access certified metadata from the Allfeat blockchain using smart contracts in Solidity. This Layer 2 bridge ensures seamless interoperability between the Allfeat network and the Ethereum ecosystem.
+
+## Key Features
+
+- **Substrate/Rust Core Blockchain**: At the heart of Allfeat lies a powerful blockchain core, developed with [Rust](https://www.rust-lang.org/) and the [Substrate](https://substrate.dev) framework. This choice ensures performance, reliability, and adaptability, making Allfeat a robust platform for managing the music industry's metadata.
+  
+- **Proof-of-Metadata (PoM)**: The PoM consensus is the central mechanism of Allfeat, allowing for the certification of metadata in a decentralized manner. Providers submit metadata entities (MIDDS), which are verified by community-elected certifiers, ensuring transparency and data integrity.
+
+- **On-chain Metadata Management**: Allfeat functions as a decentralized directory, hosting metadata about artists, tracks, releases, and other essential information directly on the blockchain. This includes the ability to lock AFT tokens corresponding to the weight of deposited metadata, ensuring a balanced and sustainable ecosystem.
+
+- **Decentralized Governance (DAO)**: Allfeat includes a DAO that empowers community stakeholders to participate in decision-making, including the nomination and selection of certifiers and validators. This ensures that the network evolves in line with the needs of its users.
+
+- **EVM+ Compatibility**: Allfeat's integration with the Ethereum ecosystem will be handled through a Layer 2 rollup. This Layer 2 solution will allow DApps to interact with Allfeat’s certified metadata via smart contracts in Solidity, ensuring seamless interoperability between the Allfeat network and Ethereum. While the Layer 1 focuses on metadata certification and management, all EVM interactions will be routed through the Layer 2 bridge.
+
+- **Proof-of-Authority (PoA) for Validators**: The network uses a PoA consensus for node validation, with a trusted selection of validators. This ensures efficiency and security for a blockchain tailored to the music industry. Transaction fees from PoA are distributed to validators and the protocol's treasury, while inflation rewards focus on PoM participants.
 
 ## Rust & Substrate
 
-We have chosen Rust for its performance, reliability, and safety features, making it an ideal choice for blockchain infrastructure.
-To further enhance our blockchain's capabilities, we leverage the Substrate framework. Substrate is a versatile and modular framework for building blockchains, known for its flexibility and extensive feature set. 
-It allows us to customize and optimize the Allfeat blockchain specifically for the needs of the music industry, providing a solid and scalable foundation for our platform and its unique features.
+We chose Rust for its safety, performance, and reliability, making it ideal for blockchain development. The Substrate framework allows us to build a customizable and modular blockchain tailored to the specific needs of the music industry.
+
+With Substrate, we have crafted a blockchain that supports advanced metadata management, facilitating interoperability with other chains and offering a scalable solution for the storage and certification of music data.
 
 ## Getting Started
 
-To get started with Allfeat, you'll need to follow a few basic steps:
+To begin your journey with Allfeat, follow these initial steps:
 
-1. **Set up your development environment**: Make sure you have the necessary tools and dependencies installed.
+1. **Set up your development environment**: Install the necessary tools and dependencies to build on Allfeat.
+2. **Run a local node**: Learn how to set up a local Allfeat node for development and testing.
+3. **Submit and Certify Metadata**: Follow our guides to submit MIDDS as a provider, or become a certifier and participate in the certification process.
+4. **Develop and Deploy DApps**: Use our resources and examples to create DApps or smart contracts that interact with Allfeat's EVM+ Layer 1.
 
-2. **Run a local node**: Learn how to run a local Allfeat node for development and testing purposes.
-
-3. **Develop your DApp/smart contract**: Use our resources and examples to start developing on Allfeat.
-
-4. **Deploy your project**: Deploy your DApp/smart contract to the Allfeat network.
-
-This documentation will guide you through each of these steps, providing detailed instructions and resources along the way.
+This documentation will guide you through each step, providing in-depth instructions and resources along the way.
 
 ## Contributing
 
-Allfeat is an open-source project, and contributions are warmly welcomed. Whether you're interested in developing features, fixing bugs, or improving documentation, your help can make a big difference.
+Allfeat is an open-source project, and we welcome contributions from developers, industry experts, and enthusiasts. Whether you want to add new features, fix bugs, or improve the documentation, your input helps strengthen the platform.
 
-Check out the [Contributing to Allfeat](contributing.md) section for more information on how to get involved.
+Check out the [Contributing to Allfeat](contributing.md) section for more details on how to get involved, and join us in building a decentralized future for music metadata.
 
-Thank you for choosing Allfeat for your blockchain development needs. We're excited to see what you'll build!
+Thank you for choosing Allfeat for your blockchain development needs. We're excited to see what you'll build and how you'll contribute to shaping the future of the music industry!

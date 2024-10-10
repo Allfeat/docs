@@ -6,10 +6,6 @@ To support your journey with Allfeat, whether you're a developer, a validator, o
 
 - **Substrate Developer Hub**: Since Allfeat is built with Substrate, this hub offers valuable resources for understanding the underlying framework. [Explore Substrate](https://substrate.dev)
 
-## Tools for Development
-
-- **Talisman Wallet Extension**: A browser extension for managing accounts both in the EVM and Substrate ecosystems. [Get the Extension](https://www.talisman.xyz/)
-
 ## Community and Support
 
 - **Allfeat Discord**: A lively place for real-time chat with the Allfeat developer community. [Join Discord](https://discord.gg/allfeat)
@@ -25,4 +21,3 @@ To support your journey with Allfeat, whether you're a developer, a validator, o
 Interested in contributing to the Allfeat project? We welcome contributions of all kinds, from code to documentation. Learn how you can contribute by visiting the [Contributing Guide](contributing.md).
 
 Your involvement can help shape the future of decentralized applications and the Allfeat platform. Whether you're contributing code, participating in discussions, or simply spreading the word, every bit of support is invaluable.
-

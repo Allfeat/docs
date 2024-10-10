@@ -31,7 +31,7 @@ Before contributing, please read our contribution guidelines carefully. These gu
 
 ## Community and Support
 
-Join the Allfeat community on [Discord](https://discord.gg/3NVd4jzGeQ) to ask questions, share your projects, and find partners for collaboration. Engaging with the community is a great way to get involved.
+Join the Allfeat community on [Discord](https://discord.allfeat.com) to ask questions, share your projects, and find partners for collaboration. Engaging with the community is a great way to get involved.
 
 ## Acknowledgements
 

@@ -48,12 +48,15 @@ copyright: Copyright &copy; 2023 - 2024 Allfeat
 docs_dir: docs
 
 nav:
-  - Introduction: 'index.md'
+  - Introduction:
+    - Overview: 'index.md'
+    - Architecture: 'intro/architecture.md'
+    - Consensus: 'intro/consensus.md'
   - Specific Features:
     - Overview: 'features/overview.md'
     - MIDDS:
-      - MIDDS Overview: 'features/midds.md'
-      - Artist Profiles: 'features/artists.md'
+      - Overview: 'features/midds/midds.md'
+      - Proof-Of-Metadata: 'features/midds/certification.md'
   - Networks:
     - Harmonie Testnet: 'networks/harmonie.md'
   - Technical Prerequisites: 'prerequisites.md'
@@ -70,9 +73,6 @@ nav:
   - Smart Contracts (DAPPs):
     - Developing: 'smart-contracts/developing.md'
     - MIDDS Integration: 'smart-contracts/midds-dapps.md'
-  - Administering a Validator Node:
-    - Prerequisites: 'validator-node/prerequisites.md'
-    - Running as a Validator: 'validator-node/running-as-validator.md'
   - Compatible Wallets: 'wallets.md'
   - FAQ: 'faq.md'
   - Additional Resources: 'additional-resources.md'

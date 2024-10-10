@@ -43,4 +43,3 @@ Depending on your development needs, you might also need the following:
 - **Web3.js or Ethers.js**: Libraries for interacting with Ethereum-based blockchains.
 
 Once you have completed these steps, you're ready to start working with Allfeat. The next section of this documentation will guide you through the process of running a local node.
-

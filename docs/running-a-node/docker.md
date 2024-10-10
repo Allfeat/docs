@@ -8,12 +8,21 @@ Ensure Docker is installed and running on your system. If you haven't installed 
 
 ## Running the Allfeat Node
 
-After building the Allfeat Docker image, you can start your local node with the following command:
+After building the Allfeat Docker image, you can start your local node connected to Harmonie Testnet with the following command:
 
 ```bash
-docker run -p 9944:9944 -p 9933:9933 -p 30333:30333 allfeat
+docker run docker.io/allfeatnetwork/allfeat:master
 ```
+
 This command runs the Allfeat node inside a Docker container and exposes the necessary ports for P2P networking and JSON-RPC interfaces.
+
+## Running the Allfeat Development Node
+
+You can also start a locel development network by running with `--dev` argument:
+
+```bash
+docker run docker.io/allfeatnetwork/allfeat:master --dev
+```
 
 ## Verifying the Node is Running
 
