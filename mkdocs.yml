@@ -49,34 +49,31 @@ docs_dir: docs
 
 nav:
   - Introduction:
-    - Overview: 'index.md'
-    - Architecture: 'intro/architecture.md'
-    - Consensus: 'intro/consensus.md'
+      - Overview: "index.md"
+      - Architecture: "intro/architecture.md"
+      - Consensus: "intro/consensus.md"
   - Specific Features:
-    - Overview: 'features/overview.md'
-    - MIDDS:
-      - Overview: 'features/midds/midds.md'
-      - Proof-Of-Metadata: 'features/midds/certification.md'
+      - Overview: "features/overview.md"
+      - MIDDS:
+          - Overview: "features/midds/midds.md"
+          - Proof-Of-Metadata: "features/midds/certification.md"
   - Networks:
-    - Harmonie Testnet: 'networks/harmonie.md'
-  - Technical Prerequisites: 'prerequisites.md'
+      - Harmonie Testnet (deprecated): "networks/harmonie.md"
+  - Technical Prerequisites: "prerequisites.md"
   - Installation and Configuration:
-    - Docker: 'installation/docker.md'
-    - From Source:
-      - Overview: 'installation/from-source.md'
-      - Linux: 'installation/linux.md'
-      - macOS: 'installation/macos.md'
-      - Building: 'installation/build-allfeat.md'
+      - Docker: "installation/docker.md"
+      - From Source:
+          - Overview: "installation/from-source.md"
+          - Linux: "installation/linux.md"
+          - macOS: "installation/macos.md"
+          - Building: "installation/build-allfeat.md"
   - Running a Local Node:
-    - With Docker: 'running-a-node/docker.md'
-    - Without Docker: 'running-a-node/without-docker.md'
-  - Smart Contracts (DAPPs):
-    - Developing: 'smart-contracts/developing.md'
-    - MIDDS Integration: 'smart-contracts/midds-dapps.md'
-  - Compatible Wallets: 'wallets.md'
-  - FAQ: 'faq.md'
-  - Additional Resources: 'additional-resources.md'
-  - Contributing to Allfeat: 'contributing.md'
+      - With Docker: "running-a-node/docker.md"
+      - Without Docker: "running-a-node/without-docker.md"
+  - Compatible Wallets: "wallets.md"
+  - FAQ: "faq.md"
+  - Additional Resources: "additional-resources.md"
+  - Contributing to Allfeat: "contributing.md"
 
 plugins:
   - search
