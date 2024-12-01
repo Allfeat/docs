@@ -20,7 +20,7 @@ Allfeat is a blockchain platform designed specifically for the music industry, w
 
 ### Economic Model
 
-- **AFT Token Utility**: The Allfeat network uses **AFT tokens** to facilitate various processes within the ecosystem. Providers stake AFT tokens when submitting metadata, representing the data's weight and value. Certifiers and nominators also stake AFT to participate in the certification process, ensuring a commitment to data quality. Transaction fees and inflation rewards are distributed to incentivize participation and maintain the network’s health.
+- **ALFT Token Utility**: The Allfeat network uses **ALFT tokens** to facilitate various processes within the ecosystem. Providers stake ALFT tokens when submitting metadata, representing the data's weight and value. Certifiers and nominators also stake ALFT to participate in the certification process, ensuring a commitment to data quality. Transaction fees and inflation rewards are distributed to incentivize participation and maintain the network’s health.
 
 - **X% Annual Inflation**: Allfeat implements a **(X)% annual inflation** model, with rewards distributed among participants in the PoM process, including certifiers, nominators, and providers. This incentive model ensures continuous participation in the network, while validators in the PoA system earn rewards through transaction fees. This balance between rewards and fees helps sustain the ecosystem and encourages active engagement from all stakeholders.
 

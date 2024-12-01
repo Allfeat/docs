@@ -16,7 +16,7 @@ Additionally, Allfeat is planning to extend its capabilities through a **Layer 2
   
 - **Proof-of-Metadata (PoM)**: The PoM consensus is the central mechanism of Allfeat, allowing for the certification of metadata in a decentralized manner. Providers submit metadata entities (MIDDS), which are verified by community-elected certifiers, ensuring transparency and data integrity.
 
-- **On-chain Metadata Management**: Allfeat functions as a decentralized directory, hosting metadata about artists, tracks, releases, and other essential information directly on the blockchain. This includes the ability to lock AFT tokens corresponding to the weight of deposited metadata, ensuring a balanced and sustainable ecosystem.
+- **On-chain Metadata Management**: Allfeat functions as a decentralized directory, hosting metadata about artists, tracks, releases, and other essential information directly on the blockchain. This includes the ability to lock $ALFT tokens corresponding to the weight of deposited metadata, ensuring a balanced and sustainable ecosystem.
 
 - **Decentralized Governance (DAO)**: Allfeat includes a DAO that empowers community stakeholders to participate in decision-making, including the nomination and selection of certifiers and validators. This ensures that the network evolves in line with the needs of its users.
 
@@ -48,3 +48,4 @@ Allfeat is an open-source project, and we welcome contributions from developers,
 Check out the [Contributing to Allfeat](contributing.md) section for more details on how to get involved, and join us in building a decentralized future for music metadata.
 
 Thank you for choosing Allfeat for your blockchain development needs. We're excited to see what you'll build and how you'll contribute to shaping the future of the music industry!
+
