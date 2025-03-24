@@ -400,3 +400,7 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea
 *.sln.iml
+
+.direnv
+.devenv
+.DS_Store

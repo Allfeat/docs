@@ -26,6 +26,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   language: en
+  features:
+    - nagivation.sections
 
 extra_css:
   - stylesheets/extra.css
@@ -43,34 +45,29 @@ extra:
       name: Allfeat labs
   generator: false
 
-copyright: Copyright &copy; 2023 - 2024 Allfeat
+copyright: Copyright &copy; 2023 - 2025 Allfeat
 
 docs_dir: docs
 
 nav:
-  - Introduction:
-      - Overview: "index.md"
-      - Architecture: "intro/architecture.md"
-      - Consensus: "intro/consensus.md"
-  - Specific Features:
-      - Overview: "features/overview.md"
+  - Learn:
+      - Quick Start: "learn/index.md"
+      - Consensus:
+         - Overview: "learn/consensus/overview.md"
+         - Proof Of Metadata:
+           - Overview: "learn/consensus/pom/overview.md"
+           - Workflow: "learn/consensus/pom/workflow.md"
+         - Proof Of Authority: ""
       - MIDDS:
-          - Overview: "features/midds/midds.md"
-          - Proof-Of-Metadata: "features/midds/certification.md"
-  - Networks:
-      - Harmonie Testnet (deprecated): "networks/harmonie.md"
-  - Technical Prerequisites: "prerequisites.md"
-  - Installation and Configuration:
-      - Docker: "installation/docker.md"
-      - From Source:
-          - Overview: "installation/from-source.md"
-          - Linux: "installation/linux.md"
-          - macOS: "installation/macos.md"
-          - Building: "installation/build-allfeat.md"
-  - Running a Local Node:
-      - With Docker: "running-a-node/docker.md"
-      - Without Docker: "running-a-node/without-docker.md"
-  - Compatible Wallets: "wallets.md"
+        - Overview: ""
+        - Rights Owner: ""
+        - Musical Work: ""
+        - Performer: ""
+        - Track: ""
+        - Release: ""
+      
+  - For Developers:
+    - SDK: ""
   - FAQ: "faq.md"
   - Additional Resources: "additional-resources.md"
   - Contributing to Allfeat: "contributing.md"
@@ -79,3 +76,14 @@ plugins:
   - search
   - minify:
       minify_html: true
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  - js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
