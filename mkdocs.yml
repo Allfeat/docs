@@ -54,12 +54,10 @@ nav:
       - Quick Start: "learn/index.md"
       - Consensus:
          - Overview: "learn/consensus/overview.md"
-         - Proof Of Metadata:
-           - Overview: "learn/consensus/pom/overview.md"
-           - Workflow: "learn/consensus/pom/workflow.md"
-         - Proof Of Authority: ""
+         - Proof Of Metadata: "learn/consensus/pom.md"
+         - Proof Of Authority: "learn/consensus/poa.md"
       - MIDDS:
-        - Overview: ""
+        - Overview: "learn/midds/overview.md"
         - Rights Owner: ""
         - Musical Work: ""
         - Performer: ""
