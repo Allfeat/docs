@@ -30,9 +30,8 @@ MIDDS define a **structured data format** for each key entity in the music indus
 
 For example:
 
--   **Rights Owner MIDDS** → Corresponds to data linked to the **IPI** (Interested Party Information) system, identifying songwriters, publishers, and rights holders.
+-   **Party Identifier MIDDS** → Corresponds to data linked to the **IPI** (Interested Party Information) and **ISNI** system, identifying any actors of the music industry.
 -   **Musical Work MIDDS** → Stores song-related data linked to the **ISWC** (International Standard Musical Work Code), including song titles, composers, and associated rights.
--   **Performer MIDDS** → Identifies the artist(s) performing on a **Track MIDDS**.
 -   **Track MIDDS** → Captures release-specific data, such as the **ISRC** (International Standard Recording Code), identifying unique sound recordings.
 -   **Release MIDDS** → Groups tracks into albums, EPs, or singles and links to an **UPC** (Universal Product Code) for distribution.
 

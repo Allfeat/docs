@@ -15,15 +15,15 @@ For code contributions, such as bug fixes or new features, follow these steps:
 1. **Fork the Repository**: Create your own fork of the [Allfeat GitHub repository](https://github.com/Allfeat/docs/).
 2. **Clone Your Fork**: Work locally on your own machine.
 3. **Create a New Branch**: Base your changes on the `master` branch.
-5. **Submit a Pull Request (PR)**: Push your changes to your fork and then submit a pull request to the Allfeat repository. Provide a clear description of the changes and any additional context.
+4. **Submit a Pull Request (PR)**: Push your changes to your fork and then submit a pull request to the Allfeat repository. Provide a clear description of the changes and any additional context.
 
 ### Improving Documentation
 
 Good documentation is crucial for any project. You can contribute by:
 
-- Correcting typos or grammatical errors.
-- Clarifying sections with additional information or examples.
-- Translating the documentation into other languages.
+-   Correcting typos or grammatical errors.
+-   Clarifying sections with additional information or examples.
+-   Translating the documentation into other languages.
 
 ## Contribution Guidelines
 
@@ -38,4 +38,3 @@ Join the Allfeat community on [Discord](https://discord.allfeat.com) to ask ques
 Every contribution matters, and we thank you for your efforts. By contributing to Allfeat, you're helping to create a more robust, efficient, and open platform for everyone.
 
 We look forward to your contributions and are excited to see how together, we can push the boundaries of decentralized technology.
-

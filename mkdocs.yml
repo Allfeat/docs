@@ -51,23 +51,20 @@ docs_dir: docs
 
 nav:
   - Learn:
-      - Quick Start: "learn/index.md"
+      - Quick Start: "index.md"
       - Consensus:
          - Overview: "learn/consensus/overview.md"
          - Proof Of Metadata: "learn/consensus/pom.md"
          - Proof Of Authority: "learn/consensus/poa.md"
       - MIDDS:
         - Overview: "learn/midds/overview.md"
-        - Rights Owner: ""
-        - Musical Work: ""
-        - Performer: ""
-        - Track: ""
-        - Release: ""
+        - Party Identifier: "learn/midds/party-identifier.md"
+        - Musical Work: "learn/midds/musical-work.md"
+        - Track: "learn/midds/track.md"
+        - Release: "learn/midds/release.md"
       
   - For Developers:
-    - SDK: ""
-  - FAQ: "faq.md"
-  - Additional Resources: "additional-resources.md"
+    - SDK (coming soon): ""
   - Contributing to Allfeat: "contributing.md"
 
 plugins:
