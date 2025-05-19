@@ -52,6 +52,7 @@ docs_dir: docs
 nav:
   - Learn:
       - Quick Start: "index.md"
+      - Metadata Philosphy: "learn/metadata.md"
       - Consensus:
          - Overview: "learn/consensus/overview.md"
          - Proof Of Metadata: "learn/consensus/pom.md"
@@ -62,6 +63,8 @@ nav:
         - Musical Work: "learn/midds/musical-work.md"
         - Track: "learn/midds/track.md"
         - Release: "learn/midds/release.md"
+      - Advanced / Technical:
+        - Overview: "learn/technical/overview.md"
       
   - For Developers:
     - SDK (coming soon): ""

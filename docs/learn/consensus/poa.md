@@ -1,51 +1,97 @@
-# Proof-of-Authority (PoA) 🔐
+# 🔒 Proof of Authority (PoA)
 
-## What is Proof-of-Authority?
+The Proof of Authority (PoA) system in Allfeat ensures that the network technically works **securely**, **smoothly**, and **without interruption**.
 
-Proof-of-Authority (PoA) is the **technical consensus mechanism** that secures and maintains the Allfeat network’s infrastructure. Unlike traditional Proof-of-Work or Proof-of-Stake models, PoA relies on **a selected set of trusted validators** to efficiently validate transactions and produce new blocks.
+Unlike fully open networks where anyone can try to validate blocks, PoA relies on a **pre-selected group of validators** — trusted participants who run the network's infrastructure.
 
-## Why PoA for Allfeat? 🎵
+---
 
-Allfeat is a **specialized music data registry**, not a general-purpose blockchain. The network prioritizes **stability, efficiency, and industry trust** over full decentralization at the infrastructure level. PoA provides:
+## 🧠 Why Do We Use PoA?
 
--   **High Performance**: Faster block validation without the computational overhead of Proof-of-Work.
--   **Reliability**: A controlled set of validators ensures a **robust and predictable network**.
--   **Low Transaction Costs**: Minimizes fees, making metadata registration accessible to all users.
+The music industry needs:
 
-## How PoA Works ⚙️
+- ✅ Fast confirmations
+- ✅ Reliable infrastructure
+- ✅ Predictable and affordable costs
 
-### 1️⃣ Validator Selection
+PoA offers all of that by **avoiding energy-heavy mining** or complex economic games. It focuses on **trust and performance**, making it ideal for a professional, use-case-oriented chain like Allfeat.
 
-Validators are pre-approved **music industry stakeholders and technical partners**. They are responsible for:
+Validators in PoA are:
 
--   Validating transactions and producing new blocks.
--   Ensuring the network runs smoothly and securely.
--   Preventing unauthorized changes or fraudulent activity.
+- Known and identifiable entities
+- Chosen for their technical reliability and neutrality
+- Accountable for maintaining uptime and fairness
 
-### 2️⃣ Transaction Processing
+They don’t receive newly minted tokens (no inflation), but they do earn:
 
-Every transaction (such as metadata registration or MIDDS validation) goes through the PoA validators. Since validators are **trusted entities**, transactions are confirmed quickly and efficiently.
+- 🔁 A share of transaction fees
+- 💰 Protocol rewards from a fixed treasury
 
-### 3️⃣ Security & Governance
+---
 
-Although PoA uses a fixed validator set, governance mechanisms allow for:
+## 🏗️ How It Works Behind the Scenes
 
--   **Adding new validators** through community or industry approval.
--   **Replacing inactive or malicious validators** to maintain trust.
--   **Auditing validator actions** to ensure transparency.
+Even if validators are pre-selected, we still need a system that:
 
-## PoA vs. Public Blockchains 🏛️
+- Randomly chooses **who creates the next block**
+- Makes sure **all validators agree on the correct version of the chain**
 
-Unlike fully open, permissionless networks, PoA offers:
-| Feature | Proof-of-Authority (PoA) | Public Blockchains (PoW/PoS) |
-|-------------------|-------------------------|-----------------------------|
-| Validation Speed | ✅ Fast | ❌ Slower (depends on mining/staking) |
-| Energy Efficiency | ✅ Low energy use | ❌ High energy consumption (PoW) |
-| Governance | ✅ Controlled, trusted entities | ❌ Open to anonymous participation |
-| Security | ✅ Industry-backed validators | ❌ More susceptible to Sybil attacks |
+Allfeat uses two mechanisms to do this:
 
-## The Role of PoA in Allfeat 🔗
+---
 
-PoA is the **backbone of Allfeat’s technical layer**, ensuring that metadata transactions remain **fast, efficient, and cost-effective**. This model allows the network to focus on what matters most: **the integrity and certification of music metadata** through the Proof-of-Metadata (PoM) consensus.
+### 🎯 BABE – Block Assignment
 
-🚀 With PoA securing the infrastructure, Allfeat can **deliver an optimized, industry-friendly environment** where music metadata remains **trusted, transparent, and immutable**.
+BABE (Blind Assignment for Blockchain Extension) is the engine that picks **which validator will produce the next block**.
+
+Here’s how it works in simple terms:
+
+- At regular time intervals, validators are asked to propose a block
+- BABE randomly assigns the right to produce the block to one of them
+- If a validator is unavailable, another one can step in after a short delay
+
+This creates a steady rhythm for the network and spreads the load fairly among validators.
+
+---
+
+### 🧓 GRANDPA – Finalization
+
+Once blocks are proposed, the network needs to **agree on which blocks are final and can never be changed**.
+
+This is where GRANDPA (GHOST-based Recursive ANcestor Deriving Prefix Agreement) comes in.
+
+- Validators vote on which blocks they consider finalized
+- If a **majority** agree, those blocks become **permanent**
+- This ensures everyone sees the same version of history, even if some nodes are offline temporarily
+
+GRANDPA makes it **very hard to rewrite the chain** or trick the system with fake versions of events.
+
+---
+
+## 👥 Who Can Become a Validator?
+
+At launch, Allfeat operates with a **curated set of validators** to guarantee stability. Over time, the validator set may expand, with new members added based on:
+
+- Their uptime and performance
+- Their neutrality and transparency
+- The trust they build with the Allfeat community
+
+Note: this system is different from networks that allow anyone to join. It’s a **pragmatic choice** that ensures professional-grade service from day one.
+
+---
+
+## 📌 Summary
+
+- **PoA** is the foundation of Allfeat’s infrastructure layer
+- It uses a **trusted pool of validators** to process and secure transactions
+- Two key tools make it possible:
+    - **BABE**: chooses who produces each block
+    - **GRANDPA**: finalizes and agrees on block history
+- It provides a **fast, cost-efficient and reliable network** tailored to the needs of the music ecosystem
+
+---
+
+## 🔗 Related Pages
+
+- [🧩 Proof of Metadata (PoM)](./pom.md)
+- [🧠 Consensus Overview](./overview.md)

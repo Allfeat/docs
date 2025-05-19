@@ -1,66 +1,132 @@
-# Proof-of-Metadata 🎵📜
+# 🧩 Proof of Metadata (PoM)
 
-## Introduction
+The Proof of Metadata (PoM) system is at the heart of Allfeat.
 
-Proof-of-Metadata (PoM) is the **consensus mechanism** that governs the certification of metadata on the Allfeat blockchain. Unlike traditional blockchain consensus models that validate transactions, PoM ensures the **authenticity, accuracy, and reliability of metadata** recorded on-chain. By leveraging economic incentives and decentralized validation, PoM establishes a trusted framework where metadata is not only stored but **certified as valuable and immutable**.
+It ensures that all the metadata stored in the network is **reliable**, **relevant**, and **verified by the music community itself** — not just by machines.
 
-## How PoM Certifies Metadata 🏛️
+While the technical design of PoM is still being refined, its purpose is already clear:  
+✅ Allow anyone to contribute metadata  
+✅ Let professionals verify and certify what gets included  
+✅ Keep the system transparent, fair, and valuable for the whole industry
 
-PoM transforms metadata into **a provable and economically backed asset** by requiring submitters to **stake collateral** and go through a **community validation process**. This mechanism prevents spam, ensures data quality, and enhances the overall credibility of the Allfeat network.
+_Note: PoM is still evolving. Some details may change over the coming months as we shape the right formula for a strong and balanced system._
 
-### Core Principles 🔑
+---
 
-1. **Consensus-Driven Certification** – PoM acts as a decentralized consensus ensuring only valid metadata becomes permanently recorded.
-2. **Economic Security** – Data providers stake collateral to guarantee the integrity of their submissions.
-3. **Decentralized Governance** – The community of trusters verifies metadata before it becomes immutable.
-4. **Immutable Certified Data** – Once a MIDDS is certified, it cannot be removed, reinforcing its value.
-5. **Reward-Based Participation** – Contributors are incentivized through a reward pool, aligning economic interest with data accuracy.
-6. **Reputation-Based Trust** – A scoring system ensures reliable participants gain influence over the certification process.
+## ❓ Why Do We Need PoM?
 
-## 📝 Submission & Certification Process
+Storing metadata on a decentralized network is easy.
 
-### 1️⃣ Submission
+What’s hard — and **absolutely essential** — is making sure that metadata is:
 
--   Any AFT holder can submit a MIDDS.
--   A fixed fee is required per submission.
--   The provider must stake a collateral deposit as a guarantee for the data.
+- ✅ Accurate
+- ✅ Complete
+- ✅ Not duplicated or fake
 
-### 2️⃣ Review Period (21 days) ⏳
+Without a layer of human and social validation, a public metadata network would quickly fill with spam, errors, or self-promotional noise.
 
--   Trusters (any user with AFT) can contest a MIDDS submission.
--   If a MIDDS receives enough "No" votes, it is invalidated and removed.
--   If no contestation occurs, the MIDDS is certified and becomes immutable.
+PoM solves that. It provides a **community-driven filter** to:
 
-### 3️⃣ Contestations & Challenges ⚖️
+- Incentivize quality contributions
+- Encourage peer review and collective validation
+- Maintain long-term trust in the database
 
--   Trusters signal contestations without upfront cost (network fees excluded).
--   A threshold-based system determines the validity of a contestation.
--   Reputation influences the weight of a truster’s vote.
--   Invalid MIDDS result in the provider losing their staked collateral, which is moved to the reward pool.
+This makes PoM the **true engine** behind Allfeat’s value as a public, open metadata layer.
 
-### 4️⃣ Certification & Finalization ✅
+---
 
--   If a MIDDS passes the review period, it is **certified permanently**.
--   The provider's collateral remains **locked forever**, ensuring data permanence and value.
+## 🧑‍🎤 The Key Roles: Providers and Trusters
 
-## 🎁 Rewards & Reputation System
+PoM is based on a collaboration between two types of participants:
 
-### Reward Pool Distribution 💰
+### Providers
 
--   Tokens from the reward pool are distributed every X days.
--   Distribution is proportional to the total amount staked by providers.
--   Higher metadata contributions lead to higher rewards.
+These are the people or entities who **submit metadata** to Allfeat.
 
-### Reputation Mechanism 🌟
+They could be:
 
--   **Providers:** Gain points for successful submissions; higher reputation may lead to submission prioritization or reduced fees.
--   **Trusters:** Gain points for accurate contestations and valid votes; higher reputation increases vote weight.
--   **No Negative Reputation:** Users cannot lose points below their starting reputation, preventing circumvention through new address creation.
+- Artists
+- Labels
+- Collectives
+- Rights organizations
+- Independent contributors
 
-## 🚀 Future Considerations
+To ensure quality and discourage spam, providers must:
 
--   Implementation of metadata edit proposals under the same certification mechanism.
--   Optimization of the contestation system to prevent abuse (Sybil attacks, false competitive challenges).
--   Evolution of the reputation model to balance contributions and contestations effectively.
+- Lock a small amount of AFT tokens (collateral)
+- Accept that their submission may be contested or rejected if inaccurate
 
-By enforcing a **strong economic and consensus model for metadata certification**, PoM ensures that the Allfeat network remains **the ultimate source of truth** for music metadata. The following sections will explore each component in greater detail.
+Their incentive:  
+The more high-quality data they contribute, the more they can earn over time from the protocol’s reward system.
+
+---
+
+### Trusters
+
+Trusters are the community members who **validate and certify** the metadata submitted by providers.
+
+They play a crucial role by:
+
+- Reviewing MIDDS (Allfeat’s structured metadata objects)
+- Voting to approve or reject submissions
+- Helping challenge suspicious or invalid data
+
+Trusters must also stake tokens to be eligible and accountable. Over time, their **reputation** grows as they participate honestly and constructively.
+
+Only Trusters can participate in the final certification of a MIDDS.
+
+---
+
+## 🧱 What Does PoM Certify?
+
+Allfeat does **not** host sensitive or private information.
+
+Instead, it focuses on **Level 1 public metadata**, like:
+
+- Song titles
+- Artist names
+- Recording details
+- Release dates
+- Contributors and roles
+
+Once a MIDDS is certified through PoM, it becomes:
+
+- Immutable (cannot be changed)
+- Publicly available to all
+- Timestamped and anchored in the network history
+
+This turns Allfeat into a **shared truth layer** for metadata — visible and usable by everyone.
+
+---
+
+## 🧠 Why Is PoM So Powerful?
+
+PoM brings something unique to Allfeat:
+
+- A **human layer of curation** for public data
+- A reward system aligned with real value creation
+- A balance between openness and quality
+
+Unlike traditional platforms where metadata is hidden or controlled by a few players, Allfeat offers:
+
+- An **open platform**
+- Backed by **professional review**
+- And **rewarded** through transparent incentives
+
+It’s not just a database — it’s a **living ecosystem** for metadata.
+
+---
+
+## 📌 Summary
+
+- **PoM** is the mechanism that validates and certifies public metadata in Allfeat
+- It involves **providers** (who submit) and **trusters** (who review)
+- It ensures that metadata is **verified, structured, and publicly accessible**
+- It is the key reason why Allfeat is a trustworthy, decentralized source of musical metadata
+
+---
+
+## 🔗 Related Pages
+
+- [🔒 Proof of Authority (PoA)](./poa.md)
+- [🧠 Consensus Overview](./overview.md)

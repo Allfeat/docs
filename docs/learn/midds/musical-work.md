@@ -1,68 +1,109 @@
-# Musical Work 🎶
+# 🧾 Musical Work MIDDS
 
-## What is the Musical Work MIDDS?
+## Overview
 
-The **Musical Work** MIDDS is the structure used to describe and register a **musical composition** in the Allfeat system. This includes both the **core metadata** of the work and its link to creators and rights holders.
+The **Musical Work MIDDS** represents the **underlying composition** — the creative idea behind a song.  
+It defines the musical structure, authorship, and identity of a piece of music, independently from how or when it's recorded.
 
-Each Musical Work must be identified by a valid **ISWC** (International Standard Musical Work Code).
+This MIDDS is essential for connecting all recordings, adaptations, and releases back to their **original intellectual source**.
 
-> ⛔️ **Note**: Allfeat is not a new registration authority or identifier for musical works. It serves as a **decentralized, immutable mirror** of the industry's existing music metadata—secured and verifiable on-chain.
+---
 
-## Key Attributes
+## 🧠 Why It Matters
 
--   **ISWC Code** ✅
--   **Title**
--   **Aliases / Alternate Titles**
--   **Year of Creation**
--   **Instrumental (Yes/No)**
--   **Lyrics Language**
--   **BPM (Tempo)**
--   **Key / Tonality**
--   **Mode (e.g., Major, Minor)**
--   **Type of Work**
-    -   Original Work
-    -   Medley
-    -   Mashup
-    -   Adaptation
+In the music industry, the composition and lyrics of a song are **legally and artistically separate** from the recording.  
+Many versions (studio, live, remixes) may come and go — but the work remains the foundation.
 
-### If Adaptation:
+The Musical Work MIDDS allows Allfeat to:
 
--   Indicate source work(s) and nature of adaptation (e.g., lyrics, music, both)
+- Document musical creations **at the source**,
+- Reference them across multiple tracks and versions,
+- Link contributors (composers, lyricists, arrangers) with clear roles,
+- Make the **creative authorship verifiable and permanent**.
 
-### If Medley:
+---
 
--   List all constituent works
+## 🏗️ Structure Summary
 
-### Classical Music Extensions:
+| Field           | Type                      | Description                                                                      |
+| --------------- | ------------------------- | -------------------------------------------------------------------------------- |
+| `iswc`          | `Iswc`                    | International Standard Work Code – the global ID for a composition.              |
+| `title`         | `MusicalWorkTitle`        | The official or main title of the work.                                          |
+| `creation_year` | `MusicalWorkCreationYear` | 4-digit Gregorian year the work was created.                                     |
+| `instrumental`  | `bool`                    | Indicates if the work is purely instrumental.                                    |
+| `language`      | `Option<Language>`        | Language of lyrics (if applicable).                                              |
+| `bpm`           | `Option<MusicalWorkBpm>`  | Tempo in beats per minute (optional).                                            |
+| `key`           | `Option<Key>`             | Musical key (e.g., C, F#, etc.) (optional).                                      |
+| `mode`          | `Option<Mode>`            | Musical mode (major, minor, etc.) (optional).                                    |
+| `work_type`     | `MusicalWorkType`         | Original, adaptation, mashup, or medley.                                         |
+| `participants`  | `MusicalWorkParticipants` | List of Party Identifier MIDDS (e.g., authors, composers), each with their role. |
 
--   **Opus Number**
--   **Catalogue Number**
--   **Number of Voices / Parts**
+---
 
-### Comments
+## 🧬 Identifiers and Linking
 
-Optional additional notes or context.
+Like other MIDDS, a Musical Work uses:
 
-## Participants and Roles
+| Type           | Description                                                         |
+| -------------- | ------------------------------------------------------------------- |
+| **Allfeat ID** | Unique on-chain identifier.                                         |
+| **RW-ID**      | `ISWC`, used globally in publishing databases (SACEM, ASCAP, etc.). |
 
-Each Musical Work must reference one or more **Party Identifiers** with defined roles:
+This ensures:
 
--   **Author / Lyricist**
--   **Composer**
--   **Arranger**
--   **Adapter**
--   **Editor**
+- Strong traceability between on-chain and traditional metadata,
+- Trust in the connection between works, recordings, and rights claims.
 
-These are direct links to Party Identifier MIDDS, ensuring participants are verifiably identified.
+---
 
-## Why It Matters 🤖
+## 🔗 Usage in the Allfeat Graph
 
-This MIDDS provides a **transparent and standardized structure** for representing musical works, including collaborative authorship and derivative forms. It enables:
+Musical Work MIDDS are referenced by:
 
--   Precise royalty distribution
--   Historical traceability
--   Global metadata compatibility
+- `Track` MIDDS → every time the work is recorded or performed.
+- `Party Identifier` MIDDS → for assigning authorship roles.
+- `Release` MIDDS → indirectly, through the Tracks included.
 
-Each work recorded in Allfeat reflects **authentic and standardized music industry data**, ensuring high fidelity between Web2 and Web3 representations of musical IP.
+This makes the Musical Work a **central node** in the music metadata graph — anchoring intellectual creation to all derived assets.
 
-🔁 **Next**: Learn how Works are linked to Tracks (ISRC) and Releases (UPC) in the following MIDDS pages.
+---
+
+## 🚀 Who Creates This MIDDS?
+
+- **Providers**: songwriters, publishers, catalog managers, or anyone registering a musical work.
+- **Trusters**: validators who confirm the accuracy and uniqueness of the metadata.
+
+Like other MIDDS, the cost to publish depends on **data weight** — more detail = more collateral.
+
+---
+
+## 🛠️ Example Use Case
+
+> A songwriter wants to register their new composition titled "Midnight Echoes".
+
+Steps:
+
+1. Set the ISWC: `T-123.456.789-0` (or leave blank if not yet assigned).
+2. Title: "Midnight Echoes"
+3. Creation Year: 2024
+4. Instrumental: false
+5. Language: English
+6. BPM: 102
+7. Key: G major
+8. Mode: Major
+9. Work Type: Original
+10. Participants: two authors (linked via Party Identifier MIDDS), one lyricist, one composer
+11. Submit and stake required collateral
+12. Wait for Trusters to review and certify
+
+Once certified, this work can be reused in multiple Tracks, across multiple Releases, with persistent attribution.
+
+---
+
+## 📘 See Also
+
+- [🎧 Track →](./track.md)
+- [📦 Release →](./release.md)
+- [🏢 Party Identifier →](./party-identifier.md)
+- [📚 MIDDS Overview →](./overview.md)
+- [🧩 Proof of Metadata →](../consensus/pom.md)

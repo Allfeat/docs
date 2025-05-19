@@ -1,55 +1,105 @@
-# Quick Start 🚀🎵
+# 🚀 Quick Start – What is Allfeat?
 
-## Welcome to Allfeat
+**Allfeat** is a **public, decentralized, and transparent metadata database** with a strong social consensus to certify them.
 
-Allfeat is an **open and decentralized music data registry** designed to provide a universal, transparent, and community-driven way to store and certify music-related information. Unlike traditional databases controlled by centralized entities, Allfeat ensures that **music metadata remains accessible, tamper-proof, and collectively maintained** by industry participants.
+It enables industry to register, verify, and protect essential metadata in a shared, tamper-proof, and accessible system.
 
-## Why Allfeat? 🎼
+---
 
-The music industry suffers from **inconsistent metadata**, missing credits, and lost royalties due to fragmented and closed databases. Allfeat solves this by offering a **shared and structured music data repository** where everyone—artists, labels, rights holders, and fans—can contribute, verify, and benefit.
+## 🧠 A Shared Foundation for Music Metadata
 
-### What Makes Allfeat Different? 🔍
+Allfeat focuses on storing and validating **level-1 metadata** – the kind that is **public**, **objective**, and **easily verifiable**.
 
-Many existing projects provide open and collaborative music databases. However, these systems rely on trust without built-in incentives or guarantees. **Allfeat leverages blockchain technology** to introduce **economic and cryptographic assurances**, ensuring that metadata is **verifiable, tamper-proof, and economically incentivized** to remain accurate and complete.
+Examples include:
 
-### What You Can Do with Allfeat ✅
+- Song and recording titles
+- Performer and contributor names
+- Standard identifiers (ISWC, ISRC, IPI, ISNI...)
+- Public metadata for releases and catalog entries
+- Time-stamped proof of existence (via Allstamp)
 
-- **Register music information** (works, artists, releases, rights...)
-- **Collaboratively verify and certify** its accuracy
-- **Ensure data permanence and traceability**
+The result is a **common reference** point that everyone in the industry can access and rely on, from creation to distribution and beyond.
 
-Instead of relying on a single entity to validate information, Allfeat distributes governance across its participants, ensuring data integrity through **transparent, economic, and reputation-based incentives**.
+---
 
-## How Allfeat Works 🔗
+## 📦 MIDDS: Structured Metadata for the Music Industry
 
-Allfeat operates on a **dual-layer consensus** to secure and validate music data:
+At the heart of Allfeat are **MIDDS** — _Music Industry Decentralized Data Structures_.
 
-### 1️⃣ Technical Layer: Proof-of-Authority (PoA)
+These are standardized metadata objects designed to describe:
 
-- Ensures a **stable and efficient network** infrastructure.
-- Managed by pre-approved industry partners.
-- Provides enterprise-grade reliability and security.
+- **Parties industry** (performers, composers, editor, distributors, artists...)
+- **Songs** (musical works)
+- **Tracks** (recordings)
+- **Releases** (albums, singles)
 
-### 2️⃣ Metadata Layer: Proof-of-Metadata (PoM)
+MIDDS link together to form a complete and searchable map of music metadata.  
+They can be created, edited, and certified by the community.
 
-- Governs the **validation and certification of music data**.
-- Open to all participants through **staking and verification**.
-- Ensures that only **verified and valuable data** is stored permanently.
+---
 
-By utilizing **blockchain technology**, Allfeat prevents unauthorized alterations while enabling a **decentralized and auditable** certification of music metadata.
+## ⚙️ How It Works: Dual Consensus
 
-## MIDDS: The Common Language of Music Data 📜
+Allfeat combines two consensus layers to ensure both technical reliability and metadata quality.
 
-Allfeat introduces **MIDDS (Music Industry Decentralized Data Structures)**, a standardized way to represent musical works, recordings, artists, and rights. MIDDS replaces fragmented, inconsistent databases with a **unified, structured, and verifiable registry**.
+### ✅ Network Layer – Proof of Authority (PoA)
 
-### Core Principles 🔑
+- Maintains the infrastructure and ensures secure operations
+- Managed by a limited set of trusted validators
+- Efficient and stable — ideal for a professional-grade registry
 
-- **Community-Driven Governance**: Data accuracy is ensured by stakeholders, not a central authority.
-- **Immutable History**: Each entry is time-stamped, preventing data loss or manipulation.
-- **Structured Metadata**: Predefined templates improve consistency and interoperability.
+### 🧩 Social Layer – Proof of Metadata (PoM)
 
-## The Bigger Picture 🌍
+- Handles the submission and certification of metadata (MIDDS)
+- Anyone can submit a MIDDS by locking a small amount of AFT tokens as collateral
+- Trusted participants (Trusters) review and certify metadata through voting
+- A challenge period allows community review before final acceptance
+- Rewards come from a pre-funded pool, based on verified contributions
 
-By **fixing metadata inaccuracies** that cost artists billions in lost royalties, Allfeat transforms music metadata from **a liability into a shared, auditable, and valuable asset**. Through a **collaborative, transparent, and economically aligned system**, Allfeat paves the way for **a more equitable and efficient music industry**.
+This system ensures metadata is **reliable**, **community-validated**, and **resistant to abuse**.
 
-🚀 Ready to explore? Dive deeper into how Allfeat works in the next sections!
+---
+
+## 👥 Who Is It For?
+
+Allfeat is designed for:
+
+- **Creators and professionals** who want to register and protect their metadata
+- **Music industry organizations** managing catalogs and identifiers
+- **Developers and platforms** building tools, apps, or services around trusted metadata
+- **Verifiers (Trusters)** who help ensure data quality and earn reputation over time
+
+---
+
+## 🌐 Built for Transparency
+
+Allfeat is:
+
+- **Open** – anyone can consult or contribute metadata
+- **Durable** – once verified, metadata cannot be removed
+- **Interoperable** – easy to connect with external systems
+- **Transparent** – every action is traceable and accountable
+
+There are no hidden databases. Allfeat is a **public metadata layer** for the entire music ecosystem.
+
+---
+
+## 🛠️ What Can You Do With Allfeat?
+
+- Register new songs, recordings, or releases using MIDDS and earn rewards
+- Certify metadata submitted by others and earn rewards
+- Query a growing base of open, structured, and verified music data
+- Protect your creations using **Allstamp**, a time-based proof of authorship
+
+---
+
+## 📍 What’s Next?
+
+- 🔗 Learn more about [Metadata](./learn/metadata.md)
+- 🧰 Explore the [Allfeat SDK](./sdk.md) to build or integrate
+- 🛰️ Connect to the network via [API or Node](./run-node.md)
+- 🤝 Join the community and help shape the metadata standards of tomorrow
+
+---
+
+> Allfeat provides a **shared source of truth** for music metadata — open, verifiable, and shaped by the industry itself.
