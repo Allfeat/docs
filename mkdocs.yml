@@ -63,8 +63,14 @@ nav:
         - Musical Work: "learn/midds/musical-work.md"
         - Track: "learn/midds/track.md"
         - Release: "learn/midds/release.md"
-      - Advanced / Technical:
-        - Overview: "learn/technical/overview.md"
+      - Protocol Architecture:
+        - Overview: "learn/protocol/overview.md"
+        - "Blockchain: Summary": "learn/protocol/blockchain_summary.md"
+        - Transactions: "learn/protocol/transaction.md"
+        - Accounts: "learn/protocol/account.md"
+        - Blocks: "learn/protocol/block.md"
+        - Network Runtime: "learn/protocol/runtime.md"
+        - Network Nodes: "learn/protocol/node.md"
       
   - For Developers:
     - SDK (coming soon): ""
